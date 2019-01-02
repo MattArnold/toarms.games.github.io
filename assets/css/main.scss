@@ -1,0 +1,255 @@
+---
+---
+
+$almost-white: #E5E5E5;
+$dark: #303030;
+$grey: #666666;
+$blue: #8585fc;
+$yellow: #ffbf00;
+$red: #d90000;
+
+@font-face {
+  font-family: 'Pixel1';
+  src: url('/assets/fonts/pixel1.eot'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/pixel1.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/fonts/pixel1.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/assets/fonts/pixel1.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+body {
+  font-family: Pixel1;
+  background: url("/assets/images/UnitBackground.png");
+  color: $almost-white;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  margin: 2rem 4rem;
+}
+
+h1, h2, h3, h4, p, .nav {
+  text-transform: uppercase;
+}
+
+h1, h2,{
+  margin: 1rem;
+}
+
+h1 {
+  line-height: 6rem;
+}
+
+h2 {
+  line-height: 3rem;
+}
+
+p {
+  line-height: 2rem;
+}
+
+option {
+  font-family: Pixel1;
+}
+
+.nav {
+  background: $dark;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 6rem;
+  padding: 1rem;
+}
+
+.nav img {
+  height: 3rem;
+  position: relative;
+  top: .5rem;
+}
+
+input {
+  height: 3.4rem;
+  font-family: Pixel1;
+  text-transform: uppercase;
+  font-size: x-large;
+  width: 15rem;
+}
+
+.nav a, input[type="submit"] {
+  height: 4rem;
+  margin-left: 2rem;
+  font-size: 2rem;
+  text-decoration: none;
+  padding: .5rem;
+  background: $grey;
+  border-top: solid #aaa .2rem;
+  border-left: solid #222 .2rem;
+  border-right: solid #aaa .2rem;
+  border-bottom: solid #222 .2rem;
+  position: relative;
+  top: .5rem;
+}
+
+a {
+  color: $almost-white;
+}
+
+.header {
+  position: relative;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.header>a {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.subheader {
+  width: 27rem;
+  font-size: 1.25rem !important;
+  position: absolute;
+  top: -1rem;
+  left: 26rem;
+  color: $grey;
+}
+
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.tutor-skull {
+  width: 16rem;
+  height: 16rem;
+  background: url(/assets/images/Skull.png) no-repeat;
+  background-size: contain;
+  float: left;
+  position: relative;
+  top: .3rem;
+}
+
+div.title {
+  position: relative;
+}
+
+h1.title {
+  font-size: 4rem;
+}
+h1.title, .cost {
+  text-shadow: black .5rem .5rem,
+  black -.5rem 0,
+  black .5rem 0,
+  black 0 -.5rem,
+  black 0 .5rem,
+  black -.5rem .5rem,
+  black .5rem -.5rem,
+  black -.5rem -.5rem;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem 1rem 8rem 1rem;
+  padding: 1rem;
+  background: $dark;
+}
+
+.card {
+  width: 20rem;
+  border: solid black 1rem;
+  margin: 1.8rem;
+  background: url(/assets/images/UnitBackground.png);
+}
+
+.container:after, .card:after, .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card > div {
+  padding: .8rem;
+}
+
+.card-name {
+  font-size: 2rem;
+  height: 2rem;
+}
+
+.unit.card-name {
+  color: $blue;
+}
+
+.item.card-name {
+  color: $yellow;
+}
+
+.monster.card-name {
+  color: $red;
+}
+
+.long.card-name {
+  font-size: 1.7rem;
+}
+
+.x-long.card-name {
+  font-size: 1.4rem;
+}
+
+.xx-long.card-name {
+  font-size: 1.2rem;
+}
+
+.card-image {
+  height: 9rem;
+  width: 9rem;
+  float: left;
+  background-size: contain !important;
+  margin: 1rem;
+}
+
+.card-cost, .card-type {
+  text-align: right;
+}
+
+.cost, .card-pain, .big.card-deploy {
+  font-size: 3rem;
+}
+
+.coin {
+  color: $yellow;
+}
+
+.blood {
+  color: $red;
+}
+
+.card-type {
+  margin-top: 1rem;
+}
+
+.card-deploy {
+  background-color: $grey;
+}
+
+.card-flavor {
+  font-size: .9rem;
+  color: $grey;
+}
+
+form > h2 {
+  float: left;
+}
+
+@media (max-width: 1370px) {
+  body {
+    margin: 0;
+  }
+  .container {
+    margin-left: 0;
+  }
+  .main, .container {
+    width: 100%;
+  }
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>{{site.title}}</title>
+  <meta name="description" content="A guide for the Android game 'To Arms!!' by Latahunden." />	
+  <meta property="og:url"
+    content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+  <meta property="og:title" content="{{site.title}}" />
+  <meta property="og:description" content="A guide for the Android game 'To Arms!!' by Latahunden." />
+  <meta property="og:image" content="{{ site.url }}/to-arms-og-screenshot.png" />
+  <link href="assets/css/main.css" rel="stylesheet" type="text/css" media="all" />
+  <link rel="icon" type="image/png" href="favicon.png" sizes="16x16" />
+  <link rel="shortcut icon" href="{{ '/assets/images/favicon.ico'  | absolute_url }}" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:500|Josefin+Sans:300,600" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+</head>
+<body class="pages">
+<div class="nav">
+    <label for="search"><img src="/assets/images/units/undefined.png"></label>
+    <input list="cards" id="cards-choice" name="cards-choice" />
+    <a href="{{ site.url }}/about.html">About</a>
+    <a href="{{ site.url }}/contact.html">Contact</a>
+</div>
+<div class="header">
+  <a href="{{ site.url }}"></a>
+  <div class="title">
+    <div class="subheader">
+      <p>
+        A fan site for the Android game 
+        <a href="https://play.google.com/store/apps/details?id=com.latahunden.toarms">
+          "To Arms!!"
+        </a>
+        by Latahunden.
+      </p>
+    </div>
+    <h1 class="title"><span class="tutor-skull"></span> TO</h1>
+    <h1 class="title"> ARMS!! GUIDE</h1>
+  </div>
+  <div class="big-image">
+  </div>
+</div>
+<div class="main">
+{% if content.size > 1 %}
+<div class="container">
+  {{ content}}
+</div>
+{% endif %}
+<div class="container">
+{% capture coin %}<span class="coin">a</span>{% endcapture %}
+{% capture blood %}<span class="blood">b</span>{% endcapture %}
+{% for card in site.data.cards %}
+{% if card.type contains 'ITEM' %}
+{% assign nametype = 'item' %}
+{% elsif card.type contains 'MONSTER' %}
+{% assign nametype = 'monster' %}
+{% else %}
+{% assign nametype = 'unit' %}
+{% endif %}
+<div id="{{ card.name }}" class="unit card">
+  {% if card.name.size > 12 %}
+  <div class="xx-long {{ nametype }} card-name">{{ card.name }}</div>
+  {% elsif card.name.size > 10 %}
+  <div class="x-long {{ nametype }} card-name">{{ card.name }}</div>
+  {% elsif card.name.size > 8 %}
+  <div class="long {{ nametype }} card-name">{{ card.name }}</div>
+  {% else %}
+  <div class="{{ nametype }} card-name">{{ card.name }}</div>
+  {% endif %}
+  <div class="row">
+    {% if card.type == 'ITEM' %}
+    {% assign unit-or-item = 'item' %}
+    {% else %}
+    {% assign unit-or-item = 'unit' %}
+    {% endif %}
+    <div class="card-image" style='background: url("/assets/images/{{ unit-or-item }}s/{{ card.slug }}.png") no-repeat;'></div>
+    <div class="card-cost">
+      <span class="coin cost">{{ card.coincost }}</span>
+      <span class="blood cost">{{ card.bloodcost }}</span>
+    </div>
+    <div class="card-type">{{ card.type }}</div>
+  </div>
+  {% if card.pain %}
+  <div class="card-pain">
+    PAIN: {{ card.pain }}
+  </div>  
+  {% endif %}
+  {% if card.deploy %}
+  {% if card.deploy.size > 8 %}
+  <div class="card-deploy">
+  {% else %}
+  <div class="big card-deploy">
+  {% endif %}
+    {{ card.deploy | replace: "a", coin | replace: "b", blood }}
+  </div>
+  {% endif %}
+  {% if card.gain %}
+  <div class="card-gain">
+    {{ card.gain | replace: "a", coin | replace: "b", blood }}
+  </div>
+  {% endif %}
+  {% if card.fellowship %}
+  <div class="card-fellowship">
+    {{ card.fellowship | replace: "a", coin | replace: "b", blood }}
+  </div>
+  {% endif %}
+  {% if card.flavor %}
+  <div class="card-flavor">{{ card.flavor }}</div>
+  {% endif %}
+</div>
+{% endfor %}
+</div>
+</div>
+<datalist id="cards">
+  {% for card in site.data.cards %}
+    <option value="{{ card.name }}" data-slug="{{ card.slug }}" />
+  {% endfor %}
+</datalist>
+</body>
+<script type="text/javascript">
+  window.onload = function(){
+    var list = document.getElementById('cards').children;
+    var num = Math.floor(Math.random() * Math.floor(list.length));
+    var name = list[num].dataset.slug;
+    var img = document.getElementsByClassName('big-image')[0];
+    img.style.background = "url('/assets/images/units/" + name + ".png";
+    var select = document.getElementById('cards-choice');
+    select.addEventListener('change', function(e) {
+      console.log(e.target.value);
+      location.href = "#";
+      location.href = "#" + e.target.value;
+    });
+  }
+</script>
+</html>
