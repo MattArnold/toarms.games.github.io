@@ -79,33 +79,49 @@
     </div>
     <div class="card-type">{{ card.type }}</div>
   </div>
-  {% if card.pain %}
+{% if card.pain %}
   <div class="card-pain">
     PAIN: {{ card.pain }}
   </div>  
-  {% endif %}
-  {% if card.deploy %}
-  {% if card.deploy.size > 8 %}
-  <div class="card-deploy">
-  {% else %}
+{% endif %}
+{% if card.deploy %}
+  {% if card.deploy.size < 9 %}
   <div class="big card-deploy">
+  {% elsif card.deploy.size > 40 %}
+  <div class="small card-deploy">
+  {% else %}
+  <div class="card-deploy">
   {% endif %}
     {{ card.deploy | replace: "a", coin | replace: "b", blood }}
   </div>
-  {% endif %}
-  {% if card.gain %}
+{% endif %}
+{% if card.gain %}
+  {% if card.gain.size > 25 %}
+  <div class="small card-gain">
+  {% else %}
   <div class="card-gain">
+  {% endif %}
     {{ card.gain | replace: "a", coin | replace: "b", blood }}
   </div>
-  {% endif %}
-  {% if card.fellowship %}
+{% endif %}
+{% if card.fellowship %}
+  {% if card.fellowship.size > 40 %}
+  <div class="small card-fellowship">
+  {% else %}
   <div class="card-fellowship">
+  {% endif %}
     {{ card.fellowship | replace: "a", coin | replace: "b", blood }}
   </div>
+{% endif %}
+{% if card.flavor %}
+  {% if card.flavor.size > 40 %}
+  <div class="small card-flavor">
+  {% else %}
+  <div class="card-flavor">
   {% endif %}
-  {% if card.flavor %}
-  <div class="card-flavor">{{ card.flavor }}</div>
-  {% endif %}
+    {{ card.flavor }}
+  </div>
+{% endif %}
 </div>
 {% endfor %}
 </div>
