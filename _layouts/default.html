@@ -140,10 +140,31 @@
     var img = document.getElementsByClassName('big-image')[0];
     img.style.background = "url('/assets/images/units/" + name + ".png";
     var select = document.getElementById('cards-choice');
-    select.addEventListener('change', function(e) {
-      console.log(e.target.value);
+    var go_to = function(anchor){
       location.href = "#";
-      location.href = "#" + e.target.value;
+      location.href = "{{ site.url }}#" + anchor;
+    }
+    select.addEventListener('change', function(e) {
+      go_to(e.target.value);
+    });
+    select.addEventListener('keyup', function(e) {
+      var input = e.target.value.toUpperCase();
+      var found = "#";
+      if (e.keyCode == 13) {
+        e.preventDefault();
+        if (input.length != 0) {
+          for (n in list) {
+            var v = list[n].value ? list[n].value : '';
+            if (v.startsWith(input)) {
+              found = v;
+              break;
+            }
+          }
+          if (found) {
+            go_to(found);
+          }
+        }
+      }
     });
   }
 </script>
