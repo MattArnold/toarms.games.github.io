@@ -186,7 +186,7 @@
   slug: Bomb
   coincost: 2
   type: ITEM
-  gain: +2b AND TAKE 2 DMG WHEN BOUGHT
+  gain: +3b AND TAKE 2 DMG WHEN BOUGHT
   flavor: KABOOM!
 - name: SKELETON
   slug: Skeleton
@@ -464,7 +464,7 @@
 - name: MAGIC MISSILE
   slug: MagicMissile
   bloodcost: 1
-  type: ITEM
+  type: SPELL
   gain: +2b WHEN BOUGHT
   flavor: NO NONSENSE MAGIC
 - name: RATMAN
@@ -533,7 +533,7 @@
   bloodcost: 3
   type: MONSTER
   pain: 1
-  trick: TRICK&#58; -1a</trick>
+  trick: TRICK&#58; -1<span class="coin">a</span>
   deploy: WHEN DEPLOYED&#58; +1a
   flavor: EVEN MORE ANNOYING!
 - name: PIRANHA
@@ -541,7 +541,7 @@
   bloodcost: 2
   type: MONSTER
   pain: 2
-  trick: TRICK&#58; +1a</trick>
+  trick: TRICK&#58; +1<span class="coin">a</span>
   deploy: WHEN DEPLOYED&#58; ZZZ
   flavor: UNDER THE SEA!
 - name: GHOUL
@@ -549,7 +549,7 @@
   bloodcost: 2
   type: MONSTER
   pain: 1
-  trick: TRICK&#58; -1b</trick>
+  trick: TRICK&#58; -1<span class="blood">b</span>
   deploy: WHEN DEPLOYED&#58; ZZZ
   flavor: SLOW BUT DEADLY
 - name: MAD SCIENTIST
@@ -557,7 +557,7 @@
   bloodcost: 5
   type: MONSTER
   pain: 0
-  trick: TRICK&#58; GIVE A RANDOM MONSTER PILE +1 POWER</trick>
+  trick: TRICK&#58; GIVE A RANDOM MONSTER PILE +1 POWER
   deploy: WHEN DEPLOYED&#58; +1a +2b
   flavor: WHO IS LAUGHING NOW?
 - name: LICH KING
@@ -565,7 +565,7 @@
   bloodcost: 5
   type: MONSTER
   pain: 1
-  trick: TRICK&#58; TRANSFORM A STOOGE OR A PIKEMAN INTO A SKELETON</trick>
+  trick: TRICK&#58; TRANSFORM A STOOGE OR A PIKEMAN INTO A SKELETON
   deploy: WHEN DEPLOYED&#58; +2a +1b
   flavor: RULER OF THE DEAD
 - name: ULTIMATE
@@ -649,3 +649,95 @@
   pain: 1
   gain: GAIN 1 BATTLE POINT AND BURY WHEN DEFEATED
   flavor: TINY HUMAN &#8230; YOU BE PERFECT SNACK!
+- name: SLOWCOACH
+  slug: Slowcoach
+  bloodcost: 4
+  type: MONSTER
+  pain: 1
+  trick: TRICK&#58; -1 ROUND
+  deployed: ZZZ
+  flavor: YOU SNOOZE&#8230; YOU LOSE
+- name: SANDGLASS
+  slug: Sandglass
+  coincost: 3
+  type: ITEM
+  gain: +3 ROUNDS WHEN BOUGHT
+  flavor: ALL WE HAVE TO DECIDE IS WHAT TO DO WITH THE TIME THAT IS GIVEN US
+- name: RAPTOR
+  slug: Raptor
+  bloodcost: 3
+  type: MONSTER
+  pain: 1
+  deploy: WHEN DEPLOYED&#58; +2b AND TAKE 1 DMG FOR EVERY RAPTOR IN A MONSTER PILE
+  flavor: CLEVER GIRLS
+- name: AVATAR
+  slug: Avatar
+  coincost: 8
+  type: SORCEROR
+  deploy: +1b FOR EACH FOCUS
+  flavor: SO MUCH MORE THAN A PROFILE PICTURE
+- name: FOCUS
+  slug: Focus
+  bloodcost: 2&#8230;
+  type: SPELL
+  gain: +1 FOCUS
+  flavor: BE ONE WITH THE VOID
+- name: TYCOON
+  slug: Tycoon
+  coincost: 5
+  type: DWARF
+  deploy: +2a
+  fellowship: FELLOWSHIP&#58; +1a
+  gain: REPLACE FOURTH SLOT WITH PIGGY BANK WHEN RECRUITED
+  flavor: DID NOT DIE TRYING
+- name: PIGGY BANK
+  slug: PiggyBank
+  coincost: 1&#8230;
+  bloodcost: 2
+  type: ITEM
+  gain: SAVE MONEY FOR LATER
+  fellowship: YOU CAN BREAK THE PIGGY BANK ONCE IT IS FULL
+  flavor: FOR A RAINY DAY
+- name: DOUBLE AGENT
+  slug: DoubleAgent
+  coincost: 3
+  type: ANTIHERO
+  deploy: +2b AND +1b FOR EVERY DEPLOYED MONSTER
+  flavor: SHAKEN, NOT STIRRED
+- name: ALPHA
+  slug: Alpha
+  bloodcost: 7
+  type: MONSTER
+  pain: 2
+  trick: TRICK&#58; A WEREWOLF INVADES
+  deploy: WHEN DEPLOYED&#58; +3b
+  flavor: THE BITE IS A GIFT!
+- name: DARK SCOUT
+  slug: DarkScout
+  coincost: 5
+  type: ELF ANTIHERO
+  deploy: cc DEPLOY TWO OF YOUR ACTIVE UNITS
+  gain: TAKE 3 DMG WHEN RECRUITED
+  flavor: EYES IN THE DARK
+- name: DARK DRUID
+  slug: DarkDruid
+  coincost: 3
+  type: ELF ANTIHERO
+  deploy: +1a AND c DEPLOY ONE OF YOUR ACTIVE UNITS
+  gain: BURY THE LEFTMOST UNIT IN THE RESERVES AND TAKE 2 DMG WHEN RECRUITED
+  flavor: NO DAWN WITHOUT DUSK
+- name: DARK ELITE
+  slug: DarkElite
+  coincost: 7
+  type: ELF ANTIHERO
+  deploy: +2b AND c DEPLOY ONE OF YOUR ACTIVE UNITS
+  gain: BURY 2 MONSTERS, PIKEMEN OR STOOGES AND TAKE 4 DMG WHEN RECRUITED
+  flavor: ONE WHO WENT BELOW
+- name: HYDRA
+  slug: Hydra
+  bloodcost: 4
+  type: MONSTER
+  pain: 1
+  trick: TRICK&#58; +2 HYDRAS -UP TO 6-
+  deployed: HEAL 2 DMG
+  flavor: A SUDDEN HEAD-COUNT RISE
