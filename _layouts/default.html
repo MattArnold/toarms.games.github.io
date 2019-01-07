@@ -52,7 +52,7 @@
 {% for card in site.data.cards %}
 {% if card.type contains 'ITEM' %}
 {% assign nametype = 'item' %}
-{% elsif card.type contains 'MONSTER' %}
+{% elsif card.type contains 'MONSTER' or card.type contains 'SPELL' %}
 {% assign nametype = 'monster' %}
 {% else %}
 {% assign nametype = 'unit' %}
@@ -68,21 +68,30 @@
   <div class="{{ nametype }} card-name">{{ card.name }}</div>
   {% endif %}
   <div class="row">
-    {% if card.type == 'ITEM' %}
-    {% assign unit-or-item = 'item' %}
+    {% if card.type == 'ITEM' or card.type == 'SPELL' %}
+    {% assign type = 'item' %}
     {% else %}
-    {% assign unit-or-item = 'unit' %}
+    {% assign type = 'unit' %}
     {% endif %}
-    <div class="card-image" style='background: url("/assets/images/{{ unit-or-item }}s/{{ card.slug }}.png") no-repeat;'></div>
+    <div class="card-image" style='background: url("/assets/images/{{ type }}s/{{ card.slug }}.png") no-repeat;'></div>
     <div class="card-cost">
       <span class="coin cost">{{ card.coincost }}</span>
       <span class="blood cost">{{ card.bloodcost }}</span>
     </div>
+    {% if card.type.size > 60 %}
+    <div class="small card-type">{{ card.type }}</div>
+    {% else %}
     <div class="card-type">{{ card.type }}</div>
+    {% endif %}
   </div>
 {% if card.pain %}
   <div class="card-pain">
     PAIN: {{ card.pain }}
+  </div>  
+{% endif %}
+{% if card.trick %}
+  <div class="small card-trick">
+    {{ card.trick }}
   </div>  
 {% endif %}
 {% if card.deploy %}
