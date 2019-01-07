@@ -257,4 +257,14 @@ form > h2 {
   .main, .container {
     width: 100%;
   }
+  .nav a, input[type="submit"] {
+    font-size: 1.5rem;
+    line-height: 4.5rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .nav {
+    height: 9rem;
+  }
 }
