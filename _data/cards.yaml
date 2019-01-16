@@ -479,7 +479,7 @@
   bloodcost: 5
   type: MONSTER
   pain: 1
-  deploy: WHEN DEPLOYED&#58; BURY THE LEFTMOST UNIT IN THE RESERVESb
+  deploy: WHEN DEPLOYED&#58; BURY THE LEFTMOST UNIT IN THE RESERVES
   flavor: I AM DEATH.
 - name: SHAPESHIFTER
   slug: Shapeshifter
