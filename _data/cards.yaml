@@ -131,6 +131,13 @@
   pain: 1
   deploy: WHEN DEPLOYED&#58; -1b
   flavor: BOOOOO!
+- name: IMP
+  slug: Imp
+  bloodcost: 3
+  type: MONSTER
+  pain: 2
+  deploy: WHEN DEPLOYED&#58; +1b
+  flavor: ALMOST AS DEADLY AS THEY ARE ANNOYING
 - name: SILVER CHEST
   slug: SilverChest
   coincost: 1
