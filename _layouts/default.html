@@ -52,7 +52,7 @@
 {% for card in site.data.cards %}
 {% if card.type contains 'ITEM' %}
 {% assign nametype = 'item' %}
-{% elsif card.type contains 'MONSTER' or card.type contains 'SPELL' %}
+{% elsif card.type contains 'MONSTER' or card.type contains 'SPELL' or card.type contains 'ACTION' %}
 {% assign nametype = 'monster' %}
 {% else %}
 {% assign nametype = 'unit' %}
@@ -68,7 +68,7 @@
   <div class="{{ nametype }} card-name">{{ card.name }}</div>
   {% endif %}
   <div class="row">
-    {% if card.type == 'ITEM' or card.type == 'SPELL' %}
+    {% if card.type == 'ITEM' or card.type == 'SPELL' or card.type == 'ACTION' %}
     {% assign type = 'item' %}
     {% else %}
     {% assign type = 'unit' %}

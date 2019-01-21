@@ -177,7 +177,7 @@
 - name: NUN
   slug: Nun
   coincost: 5
-  type: HOLY
+  type: HOLY NINJA
   deploy: +2b
   fellowship: FELLOWSHIP&#58; +1b
   gain: BURY 3 MONSTERS WHEN RECRUITED
@@ -479,7 +479,7 @@
   bloodcost: 5
   type: MONSTER
   pain: 1
-  deploy: +1a AND BURY A MONSTER
+  deploy: WHEN DEPLOYED&#58; +1a AND BURY A MONSTER
   flavor: STAYS TRUE TO HORNED ONE
 - name: GRIM REAPER
   slug: GrimReaper
@@ -507,7 +507,7 @@
   bloodcost: 7
   type: MONSTER
   pain: 3
-  deploy: ADD 1 SHURIKEN
+  deploy: WHEN DEPLOYED&#58; ADD 1 SHURIKEN
   flavor: YOU SHOULD PROBABLY STAY IN THE SUN
 - name: COLOSSUS
   slug: Colossus
@@ -662,7 +662,7 @@
   type: MONSTER
   pain: 1
   trick: TRICK&#58; -1 ROUND
-  deployed: ZZZ
+  deployed: WHEN DEPLOYED&#58; ZZZ
   flavor: YOU SNOOZE&#8230; YOU LOSE
 - name: SANDGLASS
   slug: Sandglass
@@ -746,5 +746,49 @@
   type: MONSTER
   pain: 1
   trick: TRICK&#58; +2 HYDRAS -UP TO 6-
-  deployed: HEAL 2 DMG
+  deploy: WHEN DEPLOYED&#58; HEAL 2 DMG
   flavor: A SUDDEN HEAD-COUNT RISE
+- name: SENSEI
+  slug: Sensei
+  coincost: 5
+  type: NINJA MOUSE
+  deploy: +2a
+  fellowship: +2b
+  gain: REPLACE THIRD SLOT WITH POW WHEN RECRUITED
+  flavor: I MADE A FUNNY!
+- name: POW!
+  slug: Pow!
+  bloodcost: 2
+  type: ACTION
+  gain: KILL A RANDOM MONSTER IN THE TOP ROW WITH POWER 4 OR LESS WHEN PERFORMED
+  flavor: DO NO HARM. UNLESS YOU MEAN TO DO HARM. THEN DO LOTS OF HARM
+- name: KAMI
+  slug: Kami
+  coincost: 19
+  type: NINJA
+  deploy: +4b
+  fellowship: EVERY TIME A NINJA IS PLAYED REDUCE COST BY 3
+  flavor: FEARED, ADMIRED AND AN ESENTIAL PART OF NATURE
+- name: SLEEPING BEAR
+  slug: SleepingBear
+  bloodcost: 6
+  type: MONSTER
+  pain: 0
+  trick: WILL WAKE UP
+  deploy: WHEN DEPLOYED&#58; ZZZ
+  flavor: FAST ASLEEP… I THINK
+- name: ANGRY BEAR
+  slug: AngryBear
+  bloodcost: 9
+  type: MONSTER
+  pain: 4
+  trick: WOKEN UP!
+  deploy: WHEN DEPLOYED&#58; +2b
+  flavor: OH NO
+- name: MEDIC
+  slug: Medic
+  coincost: 4
+  type: WORKER
+  deploy: +2a
+  gain: HEAL 10 DMG AND LOSE 4 ROUNDS WHEN RECRUITED
+  flavor: THIS WILL ONLY HURT A LITTLE
