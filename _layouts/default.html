@@ -94,15 +94,15 @@
     {{ card.trick }}
   </div>  
 {% endif %}
-{% if card.deploy %}
-  {% if card.deploy.size < 9 %}
-  <div class="big card-deploy">
-  {% elsif card.deploy.size > 40 %}
-  <div class="small card-deploy">
+{% if card.play %}
+  {% if card.play.size < 9 %}
+  <div class="big card-play">
+  {% elsif card.play.size > 40 %}
+  <div class="small card-play">
   {% else %}
-  <div class="card-deploy">
+  <div class="card-play">
   {% endif %}
-    {{ card.deploy | replace: "a", coin | replace: "b", blood }}
+    {{ card.play | replace: "a", coin | replace: "b", blood }}
   </div>
 {% endif %}
 {% if card.gain %}
