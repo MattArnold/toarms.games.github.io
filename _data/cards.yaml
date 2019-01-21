@@ -1,11 +1,11 @@
 - name: PIKEMAN
   slug: Pikeman
   type: SOLDIER
-  deploy: +1b
+  play: +1b
 - name: STOOGE
   slug: Stooge
   type: WORKER
-  deploy: +1a
+  play: +1a
 - name: POTION
   slug: Potion
   coincost: 2
@@ -28,61 +28,61 @@
   slug: Swordsman
   coincost: 3
   type: SOLDIER
-  deploy: +2b
+  play: +2b
   flavor: SEE THE WORLD THEY SAID…
 - name: FARMER
   slug: Farmer
   coincost: 3
   type: WORKER
-  deploy: +2a
+  play: +2a
   flavor: PLEASED WITH NOT BEING IN A FARMING SIMULATION SOCIAL NETWORK GAME
 - name: KNIGHT
   slug: Knight
   coincost: 6
   type: SOLDIER
-  deploy: +3b
+  play: +3b
   flavor: THE LATEST IN PLATE FASHION
 - name: MINER
   slug: Miner
   coincost: 4
   type: WORKER
-  deploy: +3a
+  play: +3a
   flavor: HI HO HI HO ITS OFF TO WORK WE GO!
 - name: SWORD-TRAINER
   slug: Sword-Trainer
   coincost: 5
   type: SOLDIER
-  deploy: +2b AND TRANSFORM A SWORDSMAN INTO A KNIGHT AND A PIKEMAN INTO A SWORDSMAN
+  play: +2b AND TRANSFORM A SWORDSMAN INTO A KNIGHT AND A PIKEMAN INTO A SWORDSMAN
   flavor: WHAT DO WE SAY TO THE GOD OF DEATH?
 - name: MERCHANT
   slug: Merchant
   coincost: 5
   type: WORKER
-  deploy: +2a AND TRANSFORM A FARMER INTO A MINER AND A STOOGE INTO A FARMER
+  play: +2a AND TRANSFORM A FARMER INTO A MINER AND A STOOGE INTO A FARMER
   flavor: THE MARKET IS ALWAYS RIGHT … RIGHT?
 - name: DRUID
   slug: Druid
   coincost: 3
   type: ELF
-  deploy: +1a c DEPLOY ONE OF YOUR ACTIVE UNITS
+  play: +1a c PLAY A UNIT FROM YOUR DECK
   flavor: MAD GARDENING SKILLS
 - name: ARCHER
   slug: Archer
   coincost: 4
   type: ELF
-  deploy: +1b c DEPLOY ONE OF YOUR ACTIVE UNITS
+  play: +1b c PLAY A UNIT FROM YOUR DECK
   flavor: BULLSEYE!
 - name: SCOUT
   slug: Scout
   coincost: 6
   type: ELF
-  deploy: cc DEPLOY TWO OF YOUR ACTIVE UNITS
+  play: cc PLAY TWO UNITS FROM YOUR DECK
   flavor: THE EYES AND EARS OF THE FOREST
 - name: ELITE
   slug: Elite
   coincost: 7
   type: ELF
-  deploy: +2b c DEPLOY ONE OF YOUR ACTIVE UNITS
+  play: +2b c PLAY A UNIT FROM YOUR DECK
   flavor: BEST OF THE BEST
 - name: PAINKILLERS
   slug: Painkillers
@@ -95,14 +95,14 @@
   bloodcost: 2
   type: MONSTER
   pain: 0
-  deploy: WHEN DEPLOYED&#58; ZZZZZ …
+  play: WHEN PLAYED&#58; ZZZZZ …
   flavor: ZZZ … SNORE … ZZZ
 - name: HOB
   slug: Hob
   bloodcost: 3
   type: MONSTER
   pain: 1
-  deploy: WHEN DEPLOYED&#58; ZZZZZ …
+  play: WHEN PLAYED&#58; ZZZZZ …
   flavor: MORE ANNOYING THAN DANGEROUS
 - name: SHOVEL
   slug: Shovel
@@ -115,28 +115,28 @@
   bloodcost: 6
   type: MONSTER
   pain: 1
-  deploy: WHEN DEPLOYED&#58; ZZZZZ …
+  play: WHEN PLAYED&#58; ZZZZZ …
   flavor: MEAN GREEN KILLING MACHINE
 - name: GOBLIN
   slug: Goblin
   bloodcost: 4
   type: MONSTER
   pain: 1
-  deploy: WHEN DEPLOYED&#58; -1a
+  play: WHEN PLAYED&#58; -1a
   flavor: NO! THEY ARE NOT CUTE!
 - name: WRAITH
   slug: Wraith
   bloodcost: 4
   type: MONSTER
   pain: 1
-  deploy: WHEN DEPLOYED&#58; -1b
+  play: WHEN PLAYED&#58; -1b
   flavor: BOOOOO!
 - name: IMP
   slug: Imp
   bloodcost: 3
   type: MONSTER
   pain: 2
-  deploy: WHEN DEPLOYED&#58; +1b
+  play: WHEN PLAYED&#58; +1b
   flavor: ALMOST AS DEADLY AS THEY ARE ANNOYING
 - name: SILVER CHEST
   slug: SilverChest
@@ -149,20 +149,20 @@
   bloodcost: 8
   type: MONSTER
   pain: 1
-  deploy: WHEN DEPLOYED&#58; cc DEPLOY TWO OF YOUR ACTIVE UNITS
+  play: WHEN PLAYED&#58; cc PLAY TWO UNITS FROM YOUR DECK
   flavor: 20 20 VISION IN 2D
 - name: CLERIC
   slug: Cleric
   coincost: 3
   type: HOLY
-  deploy: +1a AND BURY A MONSTER
+  play: +1a AND BURY A MONSTER
   fellowship: FELLOWSHIP&#58; +2a
   flavor: GOOD SINGERS WHO MAKE THEIR OWN BEER. PERFECT PARTY GUESTS
 - name: PRIEST
   slug: Priest
   coincost: 4
   type: HOLY
-  deploy: +2a
+  play: +2a
   fellowship: FELLOWSHIP&#58; +1a
   gain: BURY A MONSTER AND HEAL 3 DMG WHEN RECRUITED
   flavor: AMEN!
@@ -170,7 +170,7 @@
   slug: Monk
   coincost: 4
   type: HOLY WARRIOR
-  deploy: +2b
+  play: +2b
   fellowship: FELLOWSHIP&#58; +1a
   gain: BURY A MONSTER WHEN RECRUITED
   flavor: TRANQUILITY AND KICKASSNESS
@@ -178,7 +178,7 @@
   slug: Nun
   coincost: 5
   type: HOLY NINJA
-  deploy: +2b
+  play: +2b
   fellowship: FELLOWSHIP&#58; +1b
   gain: BURY 3 MONSTERS WHEN RECRUITED
   flavor: AAAAAVEEE…MARIIIIIIIA!
@@ -186,7 +186,7 @@
   slug: Paladin
   coincost: 9
   type: HOLY
-  deploy: +4b
+  play: +4b
   gain: HEAL 7 DMG WHEN RECRUITED
   flavor: MEMBER OF THE GOD SQUAD
 - name: BOMB
@@ -200,40 +200,40 @@
   bloodcost: 3
   type: MONSTER
   pain: 1
-  deploy: WHEN DEPLOYED&#58; TAKE 1 DMG
+  play: WHEN PLAYED&#58; TAKE 1 DMG
   flavor: BONE THUG
 - name: GLADIATOR
   slug: Gladiator
   coincost: 2
   type: WARRIOR
-  deploy: +1a +1b
+  play: +1a +1b
   fellowship: FELLOWSHIP&#58; +1b
   flavor: ARE YOU NOT ENTERTAINED?
 - name: SPARTAN
   slug: Spartan
   coincost: 5
   type: WARRIOR
-  deploy: +2b FOR EVERY WARRIOR
+  play: +2b FOR EVERY WARRIOR
   flavor: WHERE DO WE DINE TONIGHT?
 - name: FELINOMAD
   slug: Felinomad
   coincost: 7
   type: WARRIOR
-  deploy: +3b
-  gain: TRANSFORM THE 3 LEFTMOST UNITS IN THE RESERVES INTO GLADIATORS WHEN RECRUITED
+  play: +3b
+  gain: TRANSFORM THE 3 LEFTMOST UNITS IN YOUR DISCARD PILE INTO GLADIATORS WHEN RECRUITED
   flavor: BRAVE. HONORABLE AND EXTREMELY POPULAR ON THE INTERNET
 - name: VIKING
   slug: Viking
   coincost: 4
   type: PIRATE WARRIOR
-  deploy: +1a +2b
+  play: +1a +2b
   fellowship: FELLOWSHIP&#58; +1a
   flavor: FOLLOWS ODINS PATH … IF IT LEADS TO MEAD
 - name: BARBARIAN
   slug: Barbarian
   coincost: 4
   type: WARRIOR
-  deploy: +3b
+  play: +3b
   gain: TAKE 5 DMG WHEN RECRUITED
   flavor: CROM!
 - name: LIZARDMAN
@@ -241,7 +241,7 @@
   bloodcost: 5
   type: MONSTER
   pain: 2
-  deploy: WHEN DEPLOYED&#58; +2a
+  play: WHEN PLAYED&#58; +2a
   flavor: SSSSSSSSSSS!
 - name: VOODOO DOLL
   slug: VoodooDoll
@@ -260,21 +260,21 @@
   bloodcost: 7
   type: MONSTER
   pain: 1
-  deploy: WHEN DEPLOYED&#58; TAKE 2 DMG
+  play: WHEN PLAYED&#58; TAKE 2 DMG
   flavor: WORST BOUNCER EVER
 - name: SPIDER
   slug: Spider
   bloodcost: 9
   type: MONSTER
   pain: 1
-  deploy: WHEN DEPLOYED&#58; BURY 2 STOOGES OR PIKEMEN
+  play: WHEN PLAYED&#58; BURY 2 STOOGES OR PIKEMEN
   flavor: WICKED WEBSPINNER
 - name: PRINCESS
   slug: Princess
   coincost: 5
   type: ELF
-  deploy: +2a c DEPLOY ONE OF YOUR ACTIVE UNITS
-  gain: HEAL 2 DMG FOR EVERY DEPLOYED ELF WHEN RECRUITED
+  play: +2a AND c PLAY A UNIT FROM YOUR DECK
+  gain: HEAL 2 DMG FOR EVERY ELF PLAYED WHEN RECRUITED
   flavor: LIKE PEACH BUT EVEN COOLER
 - name: ZOMBIE
   slug: Zombie
@@ -288,7 +288,7 @@
   bloodcost: 4
   type: INTRUDING MONSTER
   pain: 1
-  deploy: WHEN DEPLOYED&#58; +3b
+  play: WHEN PLAYED&#58; +3b
   flavor: GOOD DOGGY!
 - name: BRONZE CHEST
   slug: BronzeChest
@@ -300,34 +300,34 @@
   slug: Sergeant
   coincost: 7
   type: SOLDIER
-  deploy: +3b AND +1b FOR EVERY OTHER SOLDIER
+  play: +3b AND +1b FOR EVERY OTHER SOLDIER
   flavor: CHARGE!
 - name: DEMON
   slug: Demon
   bloodcost: 13
   type: MONSTER
   pain: 1
-  deploy: WHEN DEPLOYED&#58; HEAL 3 DMG
+  play: WHEN PLAYED&#58; HEAL 3 DMG
   flavor: WICKED BEFORE IT WAS COOL
 - name: ROVER
   slug: Rover
   coincost: 4
   type: PIRATE MOUSE
-  deploy: +1a +1b
-  gain: TRANSFORM THE 2 LEFTMOST UNITS IN THE RESERVES INTO ROVERS WHEN RECRUITED
+  play: +1a +1b
+  gain: TRANSFORM THE 2 LEFTMOST UNITS IN YOUR DISCARD PILE INTO ROVERS WHEN RECRUITED
   flavor: ARRR!
 - name: TROOPER
   slug: Trooper
   coincost: 4
   type: MOUSE SOLDIER
-  deploy: +2a
+  play: +2a
   gain: +3a WHEN RECRUITED
   flavor: THE MICE ARE MARCHING OUT TO WAR!
 - name: FENCER
   slug: Fencer
   coincost: 5
   type: MOUSE
-  deploy: +2b
+  play: +2b
   fellowship: FELLOWSHIP&#58; +1a +1b
   gain: +3a WHEN RECRUITED
   flavor: EN GARDE!
@@ -335,21 +335,21 @@
   slug: Waiter
   coincost: 3
   type: MOUSE
-  deploy: GIVE THE 2 RANDOM RECRUITS IN THE UNIT OFFER A 2a DISCOUNT
+  play: GIVE THE 2 RANDOM RECRUITS IN THE UNIT OFFER A 2a DISCOUNT
   fellowship: FELLOWSHIP&#58; …3a DISCOUNT
   flavor: A PERFECT PLACE FOR BUSINESS
 - name: GATHERER
   slug: Gatherer
   coincost: 6
   type: MOUSE
-  deploy: +2a +2b
+  play: +2a +2b
   gain: REPLACE THIRD SLOT WITH CHEESE WHEN RECRUITED
   flavor: OH BOY!
 - name: CHEESE
   slug: Cheese
   coincost: 2
   type: ITEM
-  gain: +1b FOR EVERY MOUSE DEPLOYED WHEN BOUGHT
+  gain: +1b FOR EVERY MOUSE PLAYED WHEN BOUGHT
   flavor: IT IS NOT EXAGGERATED&#8230; THEY ABSOLUTELY LOVE THAT STUFF
 - name: GRAVE DIGGER
   slug: GraveDigger
@@ -362,39 +362,39 @@
   slug: Mutagen
   coincost: 3
   type: ITEM
-  gain: TRANSFORM THE LEFTMOST UNIT IN THE RESERVES INTO A MUTANT WHEN BOUGHT
+  gain: TRANSFORM THE LEFTMOST UNIT IN YOUR DISCARD PILE INTO A MUTANT WHEN BOUGHT
   flavor: A SMALL CANISTER HOLDING A GLOWING OOZE
 - name: RED
   slug: Red
   coincost: 2
   type: NINJA
-  deploy: KILL A RANDOM MONSTER IN THE TOP ROW WITH A POWER 4 OR LESS
+  play: KILL A RANDOM MONSTER IN THE TOP ROW WITH A POWER 4 OR LESS
   fellowship: FELLOWSHIP&#58; …6 OR LESS
   flavor: A VERY HANDY TOOL
 - name: BLACK
   slug: Black
   coincost: 5
   type: NINJA
-  deploy: +3b -1a
+  play: +3b -1a
   fellowship: FELLOWSHIP&#58; +2a
   flavor: SNEAKY SHADOW KILLER
 - name: WHITE
   slug: White
   coincost: 6
   type: NINJA
-  deploy: +1b FOR EVERY MONSTER PILE
+  play: +1b FOR EVERY MONSTER PILE
   flavor: LOOKING COOL WHILE THE THUGS ATTACK ONE AT A TIME
 - name: MASTER
   slug: Master
   coincost: 8
   type: NINJA
-  deploy: +4b AND TRANSFORM A NINJA INTO A MASTER
+  play: +4b AND TRANSFORM A NINJA INTO A MASTER
   flavor: SHOWING OFF IS THE FOOLS IDEA OF GLORY
 - name: MUTANT
   slug: Mutant
   coincost: 6
   type: NINJA
-  deploy: +2b
+  play: +2b
   fellowship: FELLOWSHIP&#58; +1b
   gain: REPLACE FIFTH SLOT WITH MUTAGEN WHEN RECRUITED
   flavor: COWABUNGA DUDE!
@@ -403,38 +403,38 @@
   bloodcost: 7
   type: MONSTER
   pain: 1
-  deploy: WHEN DEPLOYED&#58; +2b
+  play: WHEN PLAYED&#58; +2b
   flavor: A KITCHEN UTENSIL?
 - name: HUNTER
   slug: Hunter
   coincost: 5
   type: DWARF
-  deploy: +4b IF THERE ARE NO MONSTERS IN THE TOP ROW WITH POWER 6 OR LESS
+  play: +4b IF THERE ARE NO MONSTERS IN THE TOP ROW WITH POWER 6 OR LESS
   flavor: IVE GOT THE BEAST IN MY SIGHTS
 - name: KING
   slug: King
   coincost: 9
   type: DWARF
-  deploy: +2a +2b
+  play: +2a +2b
   gain: ADD 2 POTIONS 2 BLOOD COINS AND 2 SHURIKENS WHEN RECRUITED
   flavor: HAIL TO THE KING BABY!
 - name: HUSTLER
   slug: Hustler
   coincost: 5
   type: DWARF
-  deploy: +1a FOR EVERY REMAINING BLOOD COIN
+  play: +1a FOR EVERY REMAINING BLOOD COIN
   flavor: EVERY DAY IM EVERY DAY IM EVERY DAY IM HUSTLIN!
 - name: ALCHEMIST
   slug: Alchemist
   coincost: 5
   type: DWARF SORCERER
-  deploy: +2a +3b IF 4 OR MORE POTIONS ARE REMAINING
+  play: +2a +3b IF 4 OR MORE POTIONS ARE REMAINING
   flavor: SHAKEN NOT STIRRED
 - name: BERSERK
   slug: Berserk
   coincost: 6
   type: DWARF WARRIOR
-  deploy: +4b IF LESS THAN 22 LIFE IS REMAINING
+  play: +4b IF LESS THAN 22 LIFE IS REMAINING
   flavor: RAAAAAW!
 - name: BEER
   slug: Beer
@@ -453,19 +453,19 @@
   slug: Dagger
   bloodcost: 1
   type: ITEM
-  gain: BURY THE LEFTMOST UNIT IN THE RESERVES WHEN BOUGHT. HEAL 1 DMG FOR EACH UNIT BURIED THIS WAY
+  gain: BURY THE LEFTMOST UNIT IN YOUR DISCARD PILE WHEN BOUGHT. HEAL 1 DMG FOR EACH UNIT BURIED THIS WAY
   flavor: THE SACRIFICIAL KIND
 - name: NECROMANCER
   slug: Necromancer
   coincost: 4
   type: ANTIHERO
-  deploy: +2b AND BURY 2 MONSTERS GAIN +1b FOR EVERY MONSTER BURIED THIS WAY
+  play: +2b AND BURY 2 MONSTERS GAIN +1b FOR EVERY MONSTER BURIED THIS WAY
   flavor: I SEE DEAD PEOPLE
 - name: WIZARD
   slug: Wizard
   coincost: 6
   type: SORCERER
-  deploy: +1b AND ADD 1 MAGIC MISSILE
+  play: +1b AND ADD 1 MAGIC MISSILE
   gain: REPLACE FIFTH SLOT WITH MAGIC MISSILE WHEN RECRUITED
   flavor: ARRIVES PRECISELY WHEN HE MEANS TO
 - name: MAGIC MISSILE
@@ -479,27 +479,27 @@
   bloodcost: 5
   type: MONSTER
   pain: 1
-  deploy: WHEN DEPLOYED&#58; +1a AND BURY A MONSTER
+  play: WHEN PLAYED&#58; +1a AND BURY A MONSTER
   flavor: STAYS TRUE TO HORNED ONE
 - name: GRIM REAPER
   slug: GrimReaper
   bloodcost: 5
   type: MONSTER
   pain: 1
-  deploy: WHEN DEPLOYED&#58; BURY THE LEFTMOST UNIT IN THE RESERVES
+  play: WHEN PLAYED&#58; BURY THE LEFTMOST UNIT IN YOUR DISCARD PILE
   flavor: I AM DEATH.
 - name: SHAPESHIFTER
   slug: Shapeshifter
   bloodcost: 3
   type: INTRUDING MONSTER
   pain: 0
-  gain: TRANSFORMS INTO THE LEFTMOST UNIT IN THE RESERVES WHEN DEFEATED
+  gain: TRANSFORMS INTO THE LEFTMOST UNIT IN YOUR DISCARD PILE WHEN DEFEATED
   flavor: I AM NO ONE AND EVERYONE
 - name: WITCH
   slug: Witch
   coincost: 6
   type: ANTIHERO
-  deploy: +2a +1b
+  play: +2a +1b
   gain: HEAL 2 DMG FOR EVERY MONSTER PILE IN THE TOP ROW WHEN RECRUITED
   flavor: A LITTLE WICKED BUT MORE WICKED-COOL
 - name: SHADE
@@ -507,33 +507,33 @@
   bloodcost: 7
   type: MONSTER
   pain: 3
-  deploy: WHEN DEPLOYED&#58; ADD 1 SHURIKEN
+  play: WHEN PLAYED&#58; ADD 1 SHURIKEN
   flavor: YOU SHOULD PROBABLY STAY IN THE SUN
 - name: COLOSSUS
   slug: Colossus
   bloodcost: 10
   type: MONSTER
   pain: 1
-  deploy: WHEN DEPLOYED&#58; +5b
+  play: WHEN PLAYED&#58; +5b
   flavor: THE SILENT TYPE
 - name: PYROMANCER
   slug: Pyromancer
   coincost: 7
   type: SORCERER
-  deploy: KILL AND BURY A RANDOM MONSTER IN THE TOP ROW WITH POWER 6 OR LESS
+  play: KILL AND BURY A RANDOM MONSTER IN THE TOP ROW WITH POWER 6 OR LESS
   flavor: BUUURN!
 - name: LEPRECHAUN
   slug: Leprechaun
   coincost: 6
   type: SORCERER
-  deploy: +1a FOR EVERY MONSTER PILE
+  play: +1a FOR EVERY MONSTER PILE
   gain: HEAL 3 DMG WHEN RECRUITED
   flavor: A POT OF GOLD!
 - name: SHAMAN
   slug: Shaman
   coincost: 7
   type: SORCERER
-  deploy: GIVE A RANDOM MONSTER PILE -1 POWER AND BURY A MONSTER
+  play: GIVE A RANDOM MONSTER PILE -1 POWER AND BURY A MONSTER
   flavor: ASANTE SANA SQUASH BANANA WEWE NUGU MIMI HAPANA
 - name: HOBURGLAR
   slug: Hoburglar
@@ -541,7 +541,7 @@
   type: MONSTER
   pain: 1
   trick: TRICK&#58; -1<span class="coin">a</span>
-  deploy: WHEN DEPLOYED&#58; +1a
+  play: WHEN PLAYED&#58; +1a
   flavor: EVEN MORE ANNOYING!
 - name: PIRANHA
   slug: Piranha
@@ -549,7 +549,7 @@
   type: MONSTER
   pain: 2
   trick: TRICK&#58; +1<span class="coin">a</span>
-  deploy: WHEN DEPLOYED&#58; ZZZ
+  play: WHEN PLAYED&#58; ZZZ
   flavor: UNDER THE SEA!
 - name: GHOUL
   slug: Ghoul
@@ -557,7 +557,7 @@
   type: MONSTER
   pain: 1
   trick: TRICK&#58; -1<span class="blood">b</span>
-  deploy: WHEN DEPLOYED&#58; ZZZ
+  play: WHEN PLAYED&#58; ZZZ
   flavor: SLOW BUT DEADLY
 - name: MAD SCIENTIST
   slug: MadScientist
@@ -565,7 +565,7 @@
   type: MONSTER
   pain: 0
   trick: TRICK&#58; GIVE A RANDOM MONSTER PILE +1 POWER
-  deploy: WHEN DEPLOYED&#58; +1a +2b
+  play: WHEN PLAYED&#58; +1a +2b
   flavor: WHO IS LAUGHING NOW?
 - name: LICH KING
   slug: LichKing
@@ -573,33 +573,33 @@
   type: MONSTER
   pain: 1
   trick: TRICK&#58; TRANSFORM A STOOGE OR A PIKEMAN INTO A SKELETON
-  deploy: WHEN DEPLOYED&#58; +2a +1b
+  play: WHEN PLAYED&#58; +2a +1b
   flavor: RULER OF THE DEAD
 - name: ULTIMATE
   slug: Ultimate
   coincost: 11
   type: WARRIOR
-  deploy: +5b
+  play: +5b
   flavor: OUT OF CONTROOOL!
 - name: CULTIST
   slug: Cultist
   coincost: 5
   type: ANTIHERO
-  deploy: +2b
+  play: +2b
   gain: REPLACE SECOND SLOT WITH DAGGERS WHEN RECRUITED
   flavor: FOR THE GREAT ONE!
 - name: BUCCANEER
   slug: Buccaneer
   coincost: 4
   type: PIRATE
-  deploy: +2b
+  play: +2b
   fellowship: FELLOWSHIP&#58; +1b AND ADD A BLOOD COIN, SHURIKEN, OR POTION
   flavor: HOW MUCH DOES A PIRATE PAY FOR AN EAR PIERCING?
 - name: PARROT
   slug: Parrot
   coincost: 5
   type: PIRATE
-  deploy: +2a
+  play: +2a
   fellowship: FELLOWSHIP&#58; +1a
   gain: REPLACE A RANDOM MONSTERS LOOT WITH AN EPIC CHEST WHEN RECRUITED
   flavor: POLLY WANT A CRACKER!
@@ -613,34 +613,34 @@
   slug: Captain
   coincost: 6
   type: PIRATE
-  deploy: +2b
+  play: +2b
   fellowship: FELLOWSHIP&#58; +2a
-  gain: TRANSFORM THE LEFTMOST 2 MONSTERS, PIKEMEN, OR STOOGES IN THE RESERVES INTO ROVERS
+  gain: TRANSFORM THE LEFTMOST 2 MONSTERS, PIKEMEN, OR STOOGES IN YOUR DISCARD PILE INTO ROVERS
   flavor: AYE AYE!
 - name: BEGGAR
   slug: Beggar
   coincost: 3
   type: VAGABOND
-  deploy: +1a FOR EVERY RECRUIT IN THE MIDDLE ROW OF THE UNIT OFFER THAT COSTS 5a OR MORE
+  play: +1a FOR EVERY RECRUIT IN THE MIDDLE ROW OF THE UNIT OFFER THAT COSTS 5a OR MORE
   flavor: BUDDY&#8230; CAN YOU SPARE A DIME?
 - name: CHAMELEON
   slug: Chameleon
   bloodcost: 3
   type: MONSTER ELF HOLY NINJA MOUSE PIRATE SOLDIER WARRIOR ANTIHERO SORCERER
   pain: 0
-  deploy: WHEN DEPLOYED&#58; +2b
+  play: WHEN PLAYED&#58; +2b
   flavor: A TOTAL WANNABE!
 - name: HERMIT
   slug: Hermit
   coincost: 5
   type: HOLY SORCERER
-  deploy: +3a +2b IF YOU HAVE NO MORE THAN 5 UNITS DEPLOYED THIS ROUND
+  play: +3a +2b IF NO MORE THAN 5 UNITS WERE PLAYED THIS ROUND
   flavor: HATES PARTIES AND OTHER SOCIAL ACTIVITIES
 - name: HITMAN
   slug: Hitman
   coincost: 8
   type: ANTIHERO
-  deploy: +1b FOR EVERY REMAINING SHURIKEN
+  play: +1b FOR EVERY REMAINING SHURIKEN
   flavor: WAS NOT MADE FOR THIS WORLD
 - name: ANT
   slug: Ant
@@ -662,7 +662,7 @@
   type: MONSTER
   pain: 1
   trick: TRICK&#58; -1 ROUND
-  deployed: WHEN DEPLOYED&#58; ZZZ
+  play: WHEN PLAYED&#58; ZZZ
   flavor: YOU SNOOZE&#8230; YOU LOSE
 - name: SANDGLASS
   slug: Sandglass
@@ -675,13 +675,13 @@
   bloodcost: 3
   type: MONSTER
   pain: 1
-  deploy: WHEN DEPLOYED&#58; +2b AND TAKE 1 DMG FOR EVERY RAPTOR IN A MONSTER PILE
+  play: WHEN PLAYED&#58; +2b AND TAKE 1 DMG FOR EVERY RAPTOR IN A MONSTER PILE
   flavor: CLEVER GIRLS
 - name: AVATAR
   slug: Avatar
   coincost: 8
   type: SORCEROR
-  deploy: +1b FOR EACH FOCUS
+  play: +1b FOR EACH FOCUS
   flavor: SO MUCH MORE THAN A PROFILE PICTURE
 - name: FOCUS
   slug: Focus
@@ -693,7 +693,7 @@
   slug: Tycoon
   coincost: 5
   type: DWARF
-  deploy: +2a
+  play: +2a
   fellowship: FELLOWSHIP&#58; +1a
   gain: REPLACE FOURTH SLOT WITH PIGGY BANK WHEN RECRUITED
   flavor: DID NOT DIE TRYING
@@ -709,7 +709,7 @@
   slug: DoubleAgent
   coincost: 3
   type: ANTIHERO
-  deploy: +2b AND +1b FOR EVERY DEPLOYED MONSTER
+  play: +2b AND +1b FOR EVERY MONSTER PLAYED
   flavor: SHAKEN, NOT STIRRED
 - name: ALPHA
   slug: Alpha
@@ -717,27 +717,27 @@
   type: MONSTER
   pain: 2
   trick: TRICK&#58; A WEREWOLF INVADES
-  deploy: WHEN DEPLOYED&#58; +3b
+  play: WHEN PLAYED&#58; +3b
   flavor: THE BITE IS A GIFT!
 - name: DARK SCOUT
   slug: DarkScout
   coincost: 5
   type: ELF ANTIHERO
-  deploy: cc DEPLOY TWO OF YOUR ACTIVE UNITS
+  play: cc PLAY TWO UNITS FROM YOUR DECK
   gain: TAKE 3 DMG WHEN RECRUITED
   flavor: EYES IN THE DARK
 - name: DARK DRUID
   slug: DarkDruid
   coincost: 3
   type: ELF ANTIHERO
-  deploy: +1a AND c DEPLOY ONE OF YOUR ACTIVE UNITS
-  gain: BURY THE LEFTMOST UNIT IN THE RESERVES AND TAKE 2 DMG WHEN RECRUITED
+  play: +1a AND c PLAY A UNIT FROM YOUR DECK
+  gain: BURY THE LEFTMOST UNIT IN YOUR DISCARD PILE AND TAKE 2 DMG WHEN RECRUITED
   flavor: NO DAWN WITHOUT DUSK
 - name: DARK ELITE
   slug: DarkElite
   coincost: 7
   type: ELF ANTIHERO
-  deploy: +2b AND c DEPLOY ONE OF YOUR ACTIVE UNITS
+  play: +2b AND c PLAY A UNIT FROM YOUR DECK
   gain: BURY 2 MONSTERS, PIKEMEN OR STOOGES AND TAKE 4 DMG WHEN RECRUITED
   flavor: ONE WHO WENT BELOW
 - name: HYDRA
@@ -746,13 +746,13 @@
   type: MONSTER
   pain: 1
   trick: TRICK&#58; +2 HYDRAS -UP TO 6-
-  deploy: WHEN DEPLOYED&#58; HEAL 2 DMG
+  play: WHEN PLAYED&#58; HEAL 2 DMG
   flavor: A SUDDEN HEAD-COUNT RISE
 - name: SENSEI
   slug: Sensei
   coincost: 5
   type: NINJA MOUSE
-  deploy: +2a
+  play: +2a
   fellowship: +2b
   gain: REPLACE THIRD SLOT WITH POW WHEN RECRUITED
   flavor: I MADE A FUNNY!
@@ -766,7 +766,7 @@
   slug: Kami
   coincost: 19
   type: NINJA
-  deploy: +4b
+  play: +4b
   fellowship: EVERY TIME A NINJA IS PLAYED REDUCE COST BY 3
   flavor: FEARED, ADMIRED AND AN ESENTIAL PART OF NATURE
 - name: SLEEPING BEAR
@@ -775,7 +775,7 @@
   type: MONSTER
   pain: 0
   trick: WILL WAKE UP
-  deploy: WHEN DEPLOYED&#58; ZZZ
+  play: WHEN PLAYED&#58; ZZZ
   flavor: FAST ASLEEP… I THINK
 - name: ANGRY BEAR
   slug: AngryBear
@@ -783,12 +783,12 @@
   type: MONSTER
   pain: 4
   trick: WOKEN UP!
-  deploy: WHEN DEPLOYED&#58; +2b
+  play: WHEN PLAYED&#58; +2b
   flavor: OH NO
 - name: MEDIC
   slug: Medic
   coincost: 4
   type: WORKER
-  deploy: +2a
+  play: +2a
   gain: HEAL 10 DMG AND LOSE 4 ROUNDS WHEN RECRUITED
   flavor: THIS WILL ONLY HURT A LITTLE
