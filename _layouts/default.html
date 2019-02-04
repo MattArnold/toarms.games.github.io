@@ -47,7 +47,7 @@
 </div>
 {% endif %}
 <div class="container">
-{% capture coin %}<span class="coin">a</span>{% endcapture %}
+{% capture coin %}<span class="coin">g</span>{% endcapture %}
 {% capture blood %}<span class="blood">b</span>{% endcapture %}
 {% for card in site.data.cards %}
 {% if card.type contains 'ITEM' %}
@@ -102,7 +102,7 @@
   {% else %}
   <div class="card-play">
   {% endif %}
-    {{ card.play | replace: "a", coin | replace: "b", blood }}
+    {{ card.play | replace: "g", coin | replace: "b", blood }}
   </div>
 {% endif %}
 {% if card.gain %}
@@ -111,7 +111,7 @@
   {% else %}
   <div class="card-gain">
   {% endif %}
-    {{ card.gain | replace: "a", coin | replace: "b", blood }}
+    {{ card.gain | replace: "g", coin | replace: "b", blood }}
   </div>
 {% endif %}
 {% if card.fellowship %}
@@ -120,7 +120,7 @@
   {% else %}
   <div class="card-fellowship">
   {% endif %}
-    {{ card.fellowship | replace: "a", coin | replace: "b", blood }}
+    {{ card.fellowship | replace: "g", coin | replace: "b", blood }}
   </div>
 {% endif %}
 {% if card.flavor %}
