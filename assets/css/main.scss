@@ -9,15 +9,15 @@ $yellow: #ffbf00;
 $red: #d90000;
 
 @font-face {
-  font-family: 'Pixel1';
-  src: url('/assets/fonts/pixel1.eot'); /* IE9 Compat Modes */
-  src: url('/assets/fonts/pixel1.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/assets/fonts/pixel1.woff') format('woff'), /* Pretty Modern Browsers */
-       url('/assets/fonts/pixel1.ttf')  format('truetype'), /* Safari, Android, iOS */
+  font-family: 'Pixel-1';
+  src: url('/assets/fonts/pixel-1.eot'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/pixel-1.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/fonts/pixel-1.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/assets/fonts/pixel-1.ttf')  format('truetype'), /* Safari, Android, iOS */
 }
 
 body {
-  font-family: Pixel1;
+  font-family: Pixel-1;
   background: url("/assets/images/UnitBackground.png");
   color: $almost-white;
   image-rendering: pixelated;
@@ -46,7 +46,7 @@ p {
 }
 
 option {
-  font-family: Pixel1;
+  font-family: Pixel-1;
 }
 
 .nav {
@@ -67,7 +67,7 @@ option {
 
 input {
   height: 3.4rem;
-  font-family: Pixel1;
+  font-family: Pixel-1;
   text-transform: uppercase;
   font-size: x-large;
   width: 15rem;
