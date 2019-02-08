@@ -58,15 +58,7 @@
 {% assign nametype = 'unit' %}
 {% endif %}
 <div id="{{ card.name }}" class="unit card">
-  {% if card.name.size > 12 %}
-  <div class="xx-long {{ nametype }} card-name">{{ card.name }}</div>
-  {% elsif card.name.size > 10 %}
-  <div class="x-long {{ nametype }} card-name">{{ card.name }}</div>
-  {% elsif card.name.size > 8 %}
-  <div class="long {{ nametype }} card-name">{{ card.name }}</div>
-  {% else %}
   <div class="{{ nametype }} card-name">{{ card.name }}</div>
-  {% endif %}
   <div class="row">
     {% if card.type == 'ITEM' or card.type == 'SPELL' or card.type == 'ACTION' %}
     {% assign type = 'item' %}
@@ -141,6 +133,10 @@
     <option value="{{ card.name }}" data-slug="{{ card.slug }}" />
   {% endfor %}
 </datalist>
+<script src="assets/js/fitty.min.js"></script>
+<script>
+fitty('.card-name', {maxSize: 23});
+</script>
 </body>
 <script type="text/javascript">
   window.onload = function(){
