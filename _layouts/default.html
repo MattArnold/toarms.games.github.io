@@ -57,7 +57,19 @@
 {% else %}
 {% assign nametype = 'unit' %}
 {% endif %}
-<div id="{{ card.name }}" class="unit card">
+{% if card.state %}
+{%   assign state_group = card.name %}
+{%   assign state = "data-state=" | append: card.state %}
+{%   if card.state == 0 %}
+{%     assign state_hidden = '' %}
+{%   else %}
+{%     assign state_hidden = 'style="display: none;"' %}
+{%   endif %}
+{% else %}
+{% assign state_hidden = '' %}
+{% assign state_group = '' %}
+{% endif %}
+<div id="{{ card.name | replace: ' ', '%20' }}" class="unit card {{ state_group }}" {{ state }} {{ state_hidden }}>
   <div class="{{ nametype }} card-name">{{ card.name }}</div>
   <div class="row">
     {% if card.type == 'ITEM' or card.type == 'SPELL' or card.type == 'ACTION' %}
@@ -69,6 +81,10 @@
     <div class="card-cost">
       <span class="coin cost">{{ card.coincost }}</span>
       <span class="blood cost">{{ card.bloodcost }}</span>
+      {% if card.status %}
+      <br />
+      <span class="status cost">{{ card.status }} </span>
+      {% endif %}
     </div>
     {% if card.type.size > 60 %}
     <div class="small card-type">{{ card.type }}</div>
@@ -83,7 +99,7 @@
 {% endif %}
 {% if card.trick %}
   <div class="small card-trick">
-    {{ card.trick }}
+    {{ card.trick | replace: "g", coin | replace: "b", blood }}
   </div>  
 {% endif %}
 {% if card.play %}
@@ -124,13 +140,45 @@
     {{ card.flavor }}
   </div>
 {% endif %}
+{% if card.state %}
+  <button type="button" class="state-btn" onclick="(function(){
+    var states = document.getElementsByClassName('{{ card.name }}');
+    var next_state = {{ card.state }} + 1;
+    var return_to_start = true;
+    [...states].forEach(function(card) {
+      if (card.dataset['state'] > {{ card.state }}) {
+        return_to_start = false;
+      }
+    });
+    [...states].forEach(function(card) {
+      if (return_to_start && card.dataset['state'] == 0) {
+        card.style.display = 'block';
+      } else if (card.dataset['state'] == next_state ) {
+        card.style.display = 'block';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+    fitty.fitAll();
+  })()">
+  </button>
+{% endif %}
 </div>
 {% endfor %}
 </div>
 </div>
 <datalist id="cards">
+  {% assign attributes = "" %}
   {% for card in site.data.cards %}
-    <option value="{{ card.name }}" data-slug="{{ card.slug }}" />
+  {%   assign attributes = attributes | append: "value='" %}
+  {%   assign attributes = attributes | append: card.name %}
+  {%   assign attributes = attributes | append: "' data-slug=" %}
+  {%   assign attributes = attributes | append: card.slug %}
+  {%   assign attributes = attributes | append: ", " %}
+  {% endfor %}
+  {% assign card_list = attributes | split: ', ' | uniq %}
+  {% for card in card_list %}
+    <option {{card}} />
   {% endfor %}
 </datalist>
 <script src="assets/js/fitty.min.js"></script>

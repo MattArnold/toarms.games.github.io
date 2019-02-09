@@ -636,6 +636,132 @@
   type: HOLY SORCERER
   play: +3g +2b IF NO MORE THAN 5 UNITS WERE PLAYED THIS ROUND
   flavor: HATES PARTIES AND OTHER SOCIAL ACTIVITIES
+- name: FALLEN
+  slug: Fallen
+  bloodcost: 6
+  type: MONSTER
+  pain: 1
+  trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
+  play: WHEN PLAYED&#58; +2b
+  flavor: ONCE AN ANGEL &#8230;
+  state: 0
+- name: FALLEN
+  slug: Fallen
+  bloodcost: 7
+  type: MONSTER
+  pain: 1
+  trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
+  play: WHEN PLAYED&#58; +2b
+  flavor: ONCE AN ANGEL &#8230;
+  state: 1
+- name: FALLEN
+  slug: Fallen
+  bloodcost: 8
+  type: MONSTER
+  pain: 1
+  trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
+  play: WHEN PLAYED&#58; +2b
+  flavor: ONCE AN ANGEL &#8230;
+  state: 2
+- name: FALLEN
+  slug: Fallen
+  bloodcost: 9
+  type: MONSTER
+  pain: 1
+  trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
+  play: WHEN PLAYED&#58; +2b
+  flavor: ONCE AN ANGEL &#8230;
+  state: 3
+- name: FALLEN
+  slug: Fallen
+  bloodcost: 10
+  type: MONSTER
+  pain: 1
+  trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
+  play: WHEN PLAYED&#58; +2b
+  flavor: ONCE AN ANGEL &#8230;
+  state: 4
+- name: FALLEN
+  slug: Fallen
+  bloodcost: 11
+  type: MONSTER
+  pain: 1
+  trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
+  play: WHEN PLAYED&#58; +2b
+  flavor: ONCE AN ANGEL &#8230;
+  state: 5
+- name: FALLEN
+  slug: Fallen
+  bloodcost: 12
+  type: MONSTER
+  pain: 1
+  trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
+  play: WHEN PLAYED&#58; +2b
+  flavor: ONCE AN ANGEL &#8230;
+  state: 6
+- name: FALLEN
+  slug: Fallen
+  bloodcost: 13
+  type: MONSTER
+  pain: 1
+  trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
+  play: WHEN PLAYED&#58; +2b
+  flavor: ONCE AN ANGEL &#8230;
+  state: 7
+- name: FALLEN
+  slug: Fallen
+  bloodcost: 14
+  type: MONSTER
+  pain: 1
+  trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
+  play: WHEN PLAYED&#58; +2b
+  flavor: ONCE AN ANGEL &#8230;
+  state: 8
+- name: FALLEN
+  slug: Fallen
+  bloodcost: 15
+  type: MONSTER
+  pain: 1
+  trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
+  play: WHEN PLAYED&#58; +2b
+  flavor: ONCE AN ANGEL &#8230;
+  state: 9
+- name: FALLEN
+  slug: Fallen
+  bloodcost: 16
+  type: MONSTER
+  pain: 1
+  trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
+  play: WHEN PLAYED&#58; +2b
+  flavor: ONCE AN ANGEL &#8230;
+  state: 10
+- name: FALLEN
+  slug: Fallen
+  bloodcost: 17
+  type: MONSTER
+  pain: 1
+  trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
+  play: WHEN PLAYED&#58; +2b
+  flavor: ONCE AN ANGEL &#8230;
+  state: 11
+- name: FALLEN
+  slug: Fallen
+  bloodcost: 18
+  type: MONSTER
+  pain: 1
+  trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
+  play: WHEN PLAYED&#58; +2b
+  flavor: ONCE AN ANGEL &#8230;
+  state: 12
+- name: FALLEN
+  slug: Fallen
+  bloodcost: 19
+  type: MONSTER
+  pain: 1
+  trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
+  play: WHEN PLAYED&#58; +2b
+  flavor: YOU GET THE IDEA &#8230;
+  state: 13
 - name: HITMAN
   slug: Hitman
   coincost: 8
@@ -685,10 +811,66 @@
   flavor: SO MUCH MORE THAN A PROFILE PICTURE
 - name: FOCUS
   slug: Focus
-  bloodcost: 2&#8230;
+  bloodcost: 2
   type: SPELL
   gain: +1 FOCUS
   flavor: BE ONE WITH THE VOID
+  state: 0
+- name: FOCUS
+  slug: Focus
+  bloodcost: 3
+  type: SPELL
+  gain: +1 FOCUS
+  flavor: BE ONE WITH THE VOID
+  state: 1
+- name: FOCUS
+  slug: Focus
+  bloodcost: 4
+  type: SPELL
+  gain: +1 FOCUS
+  flavor: BE ONE WITH THE VOID
+  state: 2
+- name: FOCUS
+  slug: Focus
+  bloodcost: 5
+  type: SPELL
+  gain: +1 FOCUS
+  flavor: BE ONE WITH THE VOID
+  state: 3
+- name: FOCUS
+  slug: Focus
+  bloodcost: 6
+  type: SPELL
+  gain: +1 FOCUS
+  flavor: BE ONE WITH THE VOID
+  state: 4
+- name: FOCUS
+  slug: Focus
+  bloodcost: 7
+  type: SPELL
+  gain: +1 FOCUS
+  flavor: BE ONE WITH THE VOID
+  state: 5
+- name: FOCUS
+  slug: Focus
+  bloodcost: 8
+  type: SPELL
+  gain: +1 FOCUS
+  flavor: BE ONE WITH THE VOID
+  state: 6
+- name: FOCUS
+  slug: Focus
+  bloodcost: 9
+  type: SPELL
+  gain: +1 FOCUS
+  flavor: BE ONE WITH THE VOID
+  state: 7
+- name: FOCUS
+  slug: Focus
+  type: SPELL
+  gain: TOTAL FOCUS
+  flavor: YOU ARE ONE WITH THE VOID. YOU CAN CATCH FLIES WITH CHOPSTICKS &#8230; NO, THERE IS NO FLY, THERE ARE NO CHOPSTICKS
+  state: 8
 - name: TYCOON
   slug: Tycoon
   coincost: 5
@@ -699,12 +881,76 @@
   flavor: DID NOT DIE TRYING
 - name: PIGGY BANK
   slug: PiggyBank
-  coincost: 1&#8230;
+  coincost: 1
+  type: ITEM
+  gain: SAVE MONEY FOR LATER
+  fellowship: YOU CAN BREAK THE PIGGY BANK ONCE IT IS FULL
+  flavor: FOR A RAINY DAY
+  status: 0
+  state: 0
+- name: PIGGY BANK
+  slug: PiggyBank
+  coincost: 1
+  type: ITEM
+  gain: SAVE MONEY FOR LATER
+  fellowship: YOU CAN BREAK THE PIGGY BANK ONCE IT IS FULL
+  flavor: FOR A RAINY DAY
+  status: 1
+  state: 1
+- name: PIGGY BANK
+  slug: PiggyBank
+  coincost: 1
+  type: ITEM
+  gain: SAVE MONEY FOR LATER
+  fellowship: YOU CAN BREAK THE PIGGY BANK ONCE IT IS FULL
+  flavor: FOR A RAINY DAY
+  status: 2
+  state: 2
+- name: PIGGY BANK
+  slug: PiggyBank
+  coincost: 1
+  type: ITEM
+  gain: SAVE MONEY FOR LATER
+  fellowship: YOU CAN BREAK THE PIGGY BANK ONCE IT IS FULL
+  flavor: FOR A RAINY DAY
+  status: 3
+  state: 3
+- name: PIGGY BANK
+  slug: PiggyBank
+  coincost: 1
+  type: ITEM
+  gain: SAVE MONEY FOR LATER
+  fellowship: YOU CAN BREAK THE PIGGY BANK ONCE IT IS FULL
+  flavor: FOR A RAINY DAY
+  status: 4
+  state: 4
+- name: PIGGY BANK
+  slug: PiggyBank
+  coincost: 1
+  type: ITEM
+  gain: SAVE MONEY FOR LATER
+  fellowship: YOU CAN BREAK THE PIGGY BANK ONCE IT IS FULL
+  flavor: FOR A RAINY DAY
+  status: 5
+  state: 5
+- name: PIGGY BANK
+  slug: PiggyBank
+  coincost: 1
+  type: ITEM
+  gain: SAVE MONEY FOR LATER
+  fellowship: YOU CAN BREAK THE PIGGY BANK ONCE IT IS FULL
+  flavor: FOR A RAINY DAY
+  status: 6
+  state: 6
+- name: PIGGY BANK
+  slug: PiggyBank
   bloodcost: 2
   type: ITEM
   gain: SAVE MONEY FOR LATER
   fellowship: YOU CAN BREAK THE PIGGY BANK ONCE IT IS FULL
   flavor: FOR A RAINY DAY
+  status: 7
+  state: 7
 - name: DOUBLE AGENT
   slug: DoubleAgent
   coincost: 3
@@ -769,6 +1015,55 @@
   play: +4b
   fellowship: EVERY TIME A NINJA IS PLAYED REDUCE COST BY 3
   flavor: FEARED, ADMIRED AND AN ESENTIAL PART OF NATURE
+  state: 0
+- name: KAMI
+  slug: Kami
+  coincost: 16
+  type: NINJA
+  play: +4b
+  fellowship: EVERY TIME A NINJA IS PLAYED REDUCE COST BY 3
+  flavor: FEARED, ADMIRED AND AN ESENTIAL PART OF NATURE
+  state: 1
+- name: KAMI
+  slug: Kami
+  coincost: 13
+  type: NINJA
+  play: +4b
+  fellowship: EVERY TIME A NINJA IS PLAYED REDUCE COST BY 3
+  flavor: FEARED, ADMIRED AND AN ESENTIAL PART OF NATURE
+  state: 2
+- name: KAMI
+  slug: Kami
+  coincost: 10
+  type: NINJA
+  play: +4b
+  fellowship: EVERY TIME A NINJA IS PLAYED REDUCE COST BY 3
+  flavor: FEARED, ADMIRED AND AN ESENTIAL PART OF NATURE
+  state: 3
+- name: KAMI
+  slug: Kami
+  coincost: 7
+  type: NINJA
+  play: +4b
+  fellowship: EVERY TIME A NINJA IS PLAYED REDUCE COST BY 3
+  flavor: FEARED, ADMIRED AND AN ESENTIAL PART OF NATURE
+  state: 4
+- name: KAMI
+  slug: Kami
+  coincost: 4
+  type: NINJA
+  play: +4b
+  fellowship: EVERY TIME A NINJA IS PLAYED REDUCE COST BY 3
+  flavor: FEARED, ADMIRED AND AN ESENTIAL PART OF NATURE
+  state: 5
+- name: KAMI
+  slug: Kami
+  coincost: 1
+  type: NINJA
+  play: +4b
+  fellowship: EVERY TIME A NINJA IS PLAYED REDUCE COST BY 3
+  flavor: FEARED, ADMIRED AND AN ESENTIAL PART OF NATURE
+  state: 6
 - name: SLEEPING BEAR
   slug: SleepingBear
   bloodcost: 6
