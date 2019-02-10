@@ -1087,3 +1087,154 @@
   play: +2g
   gain: HEAL 10 DMG AND LOSE 4 ROUNDS WHEN RECRUITED
   flavor: THIS WILL ONLY HURT A LITTLE
+- name: SKULL KNIGHT
+  slug: SkullKnight
+  skullcost: 1
+  type: SOLDIER
+  play: +3b
+  flavor: A GOOD SOLDIER IS READY TO DIE FOR THE CAUSE. THIS ONE HAS NOTHING MORE TO PROVE
+- name: ARCANE MISSILE
+  slug: ArcaneMissile
+  type: ITEM
+  skullcost: 1
+  gain: +7b WHEN BOUGHT
+  flavor: NOT YOUR AVERAGE MISSILE
+- name: SHOVEL+
+  slug: ShovelPlus
+  type: UPGRADE LVL 1
+  skullcost: 5
+  gain: START EACH FOLLOWING DUNGEON WITH 3 SHOVELS IN YOUR FIFTH SLOT
+- name: VOODOO DOLL+
+  slug: VoodooDollPlus
+  type: UPGRADE
+  skullcost: 9
+  gain: START EACH FOLLOWING DUNGEON WITH A VOODOO DOLL IN YOUR FOURTH SLOT
+- name: TROOPER+
+  slug: TrooperPlus
+  type: UPGRADE
+  skullcost: 6
+  gain: START EACH FOLLOWING DUNGEON WITH A TROOPER IN YOUR FIFTH SLOT
+- name: SWORDSMAN+
+  slug: SwordsmanPlus
+  type: UPGRADE LVL 1
+  skullcost: 5
+  gain: START EACH FOLLOWING DUNGEON WITH A SWORDSMAN REPLACING A PIKEMAN
+- name: FARMER+
+  slug: FarmerPlus
+  type: UPGRADE LVL 1
+  skullcost: 5
+  gain: START EACH FOLLOWING DUNGEON WITH A FARMER REPLACING A STOOGE
+- name: GEM
+  slug: Gem
+  type: ITEM
+  skullcost: 1
+  gain: +4g WHEN BOUGHT
+  flavor: BLING-BLING
+- name: NINJA SCROLL
+  slug: NinjaScroll
+  type: UPGRADE LVL 1
+  skullcost: 5
+  gain: ONGOING&#58; IF AT LEAST 1 NINJA IS PLAYED, +1b -1g
+  state: 0
+- name: NINJA SCROLL
+  slug: NinjaScroll
+  type: UPGRADE LVL 2
+  skullcost: 5
+  gain: ONGOING&#58; IF AT LEAST 1 NINJA IS PLAYED, +2b -2g
+  state: 1
+- name: NINJA SCROLL
+  slug: NinjaScroll
+  type: UPGRADE LVL 3
+  skullcost: 5
+  gain: ONGOING&#58; IF AT LEAST 1 NINJA IS PLAYED, +2b
+  state: 2
+- name: WARRIOR SCROLL
+  slug: WarriorScroll
+  type: UPGRADE LVL 1
+  skullcost: 5
+  gain: ONGOING&#58; IF A WARRIOR IS PLAYED, +1b AND TAKE 1 DMG
+  state: 0
+- name: WARRIOR SCROLL
+  slug: WarriorScroll
+  type: UPGRADE LVL 2
+  skullcost: 5
+  gain: ONGOING&#58; IF A WARRIOR IS PLAYED, +2b AND TAKE 2 DMG
+  state: 1
+- name: WARRIOR SCROLL
+  slug: WarriorScroll
+  type: UPGRADE LVL 3
+  skullcost: 5
+  gain: ONGOING&#58; IF A WARRIOR IS PLAYED, +3b AND TAKE 3 DMG
+  state: 2
+- name: MOUSE SCROLL
+  slug: MouseScroll
+  type: UPGRADE LVL 1
+  skullcost: 5
+  gain: ONGOING&#58; IF AT LEAST 2 MICE ARE PLAYED, +1b
+  state: 0
+- name: MOUSE SCROLL
+  slug: MouseScroll
+  type: UPGRADE LVL 2
+  skullcost: 5
+  gain: ONGOING&#58; IF AT LEAST 2 MICE ARE PLAYED, +1g +1b
+  state: 1
+- name: MOUSE SCROLL
+  slug: MouseScroll
+  type: UPGRADE LVL 3
+  skullcost: 5
+  gain: ONGOING&#58; IF AT LEAST 2 MICE ARE PLAYED, +2g +1b
+  state: 2
+- name: PIRATE SCROLL
+  slug: PirateScroll
+  type: UPGRADE LVL 1
+  skullcost: 5
+  gain: ONGOING&#58; IF AT LEAST 2 PIRATES ARE PLAYED, +1g
+  state: 0
+- name: PIRATE SCROLL
+  slug: PirateScroll
+  type: UPGRADE LVL 2
+  skullcost: 5
+  gain: ONGOING&#58; IF AT LEAST 2 PIRATES ARE PLAYED, +1g +1b
+  state: 1
+- name: PIRATE SCROLL
+  slug: PirateScroll
+  type: UPGRADE LVL 3
+  skullcost: 5
+  gain: ONGOING&#58; IF AT LEAST 2 PIRATES ARE PLAYED, +2g +1b
+  state: 2
+- name: HOLY SCROLL
+  slug: HolyScroll
+  type: UPGRADE LVL 1
+  skullcost: 5
+  gain: ONGOING&#58; IF AT LEAST 1 HOLY UNIT IS PLAYED, -1b AND HEAL 1 DMG
+  state: 0
+- name: HOLY SCROLL
+  slug: HolyScroll
+  type: UPGRADE LVL 2
+  skullcost: 5
+  gain: ONGOING&#58; IF AT LEAST 1 HOLY UNIT IS PLAYED, -1b AND HEAL 2 DMG
+  state: 1
+- name: HOLY SCROLL
+  slug: HolyScroll
+  type: UPGRADE LVL 3
+  skullcost: 5
+  gain: ONGOING&#58; IF AT LEAST 1 HOLY UNIT IS PLAYED, HEAL 2 DMG
+  state: 2
+- name: DWARF SCROLL
+  slug: DwarfScroll
+  type: UPGRADE LVL 1
+  skullcost: 5
+  gain: ADD A CHARGE EACH TIME A DWARF IS PLAYED. 7 CHARGES GIVES A POTION
+  state: 0
+- name: DWARF SCROLL
+  slug: DwarfScroll
+  type: UPGRADE LVL 2
+  skullcost: 5
+  gain: ADD A CHARGE EACH TIME A DWARF IS PLAYED. 5 CHARGES GIVES A POTION
+  state: 1
+- name: DWARF SCROLL
+  slug: DwarfScroll
+  type: UPGRADE LVL 3
+  skullcost: 5
+  gain: ADD A CHARGE EACH TIME A DWARF IS PLAYED. 3 CHARGES GIVES A POTION
+  state: 2

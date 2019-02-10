@@ -7,6 +7,7 @@ $grey: #666666;
 $blue: #8585fc;
 $yellow: #ffbf00;
 $red: #d90000;
+$green: #24e529;
 
 @font-face {
   font-family: 'Pixel-1';
@@ -241,6 +242,10 @@ h1.title, .cost {
 
 .blood {
   color: $red;
+}
+
+.skull {
+  color: $green;
 }
 
 .status {
