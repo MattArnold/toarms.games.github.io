@@ -206,8 +206,25 @@ h1.title, .cost {
   height: 5rem;
   width: 5rem;
   float: left;
-  background-size: contain !important;
   margin: .1rem;
+}
+
+.non-animated {
+  background-size: contain !important;
+}
+
+.animated {
+  background-size: cover !important;
+  -webkit-animation: blink 3s steps(2) infinite;
+}
+
+@-webkit-keyframes blink {
+   from {
+      background-position: 0 0;
+   }
+   to {
+      background-position: 200% 0;
+   }
 }
 
 .card-cost, .card-type {
@@ -257,7 +274,7 @@ h1.title, .cost {
   width: 3.2rem;
   margin-left: 1rem;
   margin-bottom: 1rem;
-  background: url('/assets/images/arrow-btn.png') no-repeat;
+  background: url('/assets/images/animated-arrow-btn.png') no-repeat;
   background-size: cover;
   border: 0;
 }
