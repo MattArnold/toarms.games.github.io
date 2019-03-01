@@ -617,6 +617,27 @@
   fellowship: FELLOWSHIP&#58; +2g
   gain: TRANSFORM THE LEFTMOST 2 MONSTERS, PIKEMEN, OR STOOGES IN YOUR DISCARD PILE INTO ROVERS
   flavor: AYE AYE!
+- name: KOBOLD
+  slug: Kobold
+  bloodcost: 4
+  type: MONSTER
+  pain: 1
+  trick: TRICK&#58; +1 KOBOLD FOR EACH g ABOVE 5 THAT WAS GAINED THIS ROUND
+  play: WHEN PLAYED&#58; -1g
+  flavor: NO GOLD FOR YOU!
+- name: RECONCOCTER
+  slug: Reconcocter
+  coincost: 5
+  type: SORCERER
+  play: +1g +1b
+  gain: REPLACE FOURTH SLOT WITH POLYMORPH WHEN RECRUITED
+  flavor: FOR BETTER OR FOR WORSE
+- name: POLYMORPH
+  slug: Polymorph
+  bloodcost: 1
+  type: SPELL
+  gain: TRANSFORM THE TOP UNIT IN YOUR DISCARD PILE INTO A RANDOM UNIT WHEN CAST
+  flavor: BAAAH!
 - name: BEGGAR
   slug: Beggar
   coincost: 3
@@ -1087,6 +1108,12 @@
   play: +2g
   gain: HEAL 10 DMG AND LOSE 4 ROUNDS WHEN RECRUITED
   flavor: THIS WILL ONLY HURT A LITTLE
+- name: SKULL
+  slug: Skull
+  coincost: 5
+  type: ITEM
+  gain: TIP&#58; USE SKULLS TO PURCHASE POWERFUL ITEMS AND UPGRADES. SKULLS ARE KEPT BETWEEN DUNGEONS
+  flavor: A VALUABLE RELIC
 - name: SKULL KNIGHT
   slug: SkullKnight
   skullcost: 1
@@ -1238,3 +1265,8 @@
   skullcost: 5
   gain: ADD A CHARGE EACH TIME A DWARF IS PLAYED. 3 CHARGES GIVES A POTION
   state: 2
+- name: SOLO SCROLL
+  slug: SoloScroll
+  type: UPGRADE LVL 1
+  skullcost: 7
+  gain: ONGOING&#58; +1 BLOOD IF NO MORE THAN 5 UNITS WERE PLAYED. -2 BLOOD OTHERWISE
