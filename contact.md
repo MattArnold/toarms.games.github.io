@@ -14,8 +14,6 @@ category: pages
 
 <p><span class="blood">This form does not go to the creator of To Arms!!</span> This contacts Nemo Rathwald, the administrator of this fan info site.</p>
 
-<p>Please <span class="blood">do not contact this fan site about the Acolyte bug in today's release.</span> You would need to contact the creator of To Arms!!</p>
-
 <h2>Your Email: <input type="email" tabindex="1" max-length="70" name="emailAddress" required /></h2>
 
 <h2>Your Name: <input type="text" tabindex="2" max-length="70" name="entry.602095225" required /></h2>
