@@ -156,14 +156,14 @@
   coincost: 3
   type: HOLY
   play: +1g AND BURY A MONSTER
-  fellowship: FELLOWSHIP&#58; +2g
+  combo: COMBO&#58; +2g
   flavor: GOOD SINGERS WHO MAKE THEIR OWN BEER. PERFECT PARTY GUESTS
 - name: PRIEST
   slug: Priest
   coincost: 4
   type: HOLY
   play: +2g
-  fellowship: FELLOWSHIP&#58; +1g
+  combo: COMBO&#58; +1g
   gain: BURY A MONSTER AND HEAL 3 DMG WHEN RECRUITED
   flavor: AMEN!
 - name: MONK
@@ -171,7 +171,7 @@
   coincost: 4
   type: HOLY WARRIOR
   play: +2b
-  fellowship: FELLOWSHIP&#58; +1g
+  combo: COMBO&#58; +1g
   gain: BURY A MONSTER WHEN RECRUITED
   flavor: TRANQUILITY AND KICKASSNESS
 - name: NUN
@@ -179,7 +179,7 @@
   coincost: 5
   type: HOLY NINJA
   play: +2b
-  fellowship: FELLOWSHIP&#58; +1b
+  combo: COMBO&#58; +1b
   gain: BURY 3 MONSTERS WHEN RECRUITED
   flavor: AAAAAVEEE…MARIIIIIIIA!
 - name: PALADIN
@@ -207,7 +207,7 @@
   coincost: 2
   type: WARRIOR
   play: +1g +1b
-  fellowship: FELLOWSHIP&#58; +1b
+  combo: COMBO&#58; +1b
   flavor: ARE YOU NOT ENTERTAINED?
 - name: SPARTAN
   slug: Spartan
@@ -227,7 +227,7 @@
   coincost: 4
   type: PIRATE WARRIOR
   play: +1g +2b
-  fellowship: FELLOWSHIP&#58; +1g
+  combo: COMBO&#58; +1g
   flavor: FOLLOWS ODINS PATH … IF IT LEADS TO MEAD
 - name: BARBARIAN
   slug: Barbarian
@@ -328,7 +328,7 @@
   coincost: 5
   type: MOUSE
   play: +2b
-  fellowship: FELLOWSHIP&#58; +1g +1b
+  combo: COMBO&#58; +1g +1b
   gain: +3g WHEN RECRUITED
   flavor: EN GARDE!
 - name: WAITER
@@ -336,7 +336,7 @@
   coincost: 3
   type: MOUSE
   play: GIVE THE 2 RANDOM RECRUITS IN THE UNIT OFFER A 2g DISCOUNT
-  fellowship: FELLOWSHIP&#58; …3g DISCOUNT
+  combo: COMBO&#58; …3g DISCOUNT
   flavor: A PERFECT PLACE FOR BUSINESS
 - name: GATHERER
   slug: Gatherer
@@ -369,14 +369,14 @@
   coincost: 2
   type: NINJA
   play: KILL A RANDOM MONSTER IN THE TOP ROW WITH A POWER 4 OR LESS
-  fellowship: FELLOWSHIP&#58; …6 OR LESS
+  combo: COMBO&#58; …6 OR LESS
   flavor: A VERY HANDY TOOL
 - name: BLACK
   slug: Black
   coincost: 5
   type: NINJA
   play: +3b -1g
-  fellowship: FELLOWSHIP&#58; +2g
+  combo: COMBO&#58; +2g
   flavor: SNEAKY SHADOW KILLER
 - name: WHITE
   slug: White
@@ -395,7 +395,7 @@
   coincost: 6
   type: NINJA
   play: +2b
-  fellowship: FELLOWSHIP&#58; +1b
+  combo: COMBO&#58; +1b
   gain: REPLACE FIFTH SLOT WITH MUTAGEN WHEN RECRUITED
   flavor: COWABUNGA DUDE!
 - name: RASPER
@@ -593,14 +593,14 @@
   coincost: 4
   type: PIRATE
   play: +2b
-  fellowship: FELLOWSHIP&#58; +1b AND ADD A BLOOD COIN, SHURIKEN, OR POTION
+  combo: COMBO&#58; +1b AND ADD A BLOOD COIN, SHURIKEN, OR POTION
   flavor: HOW MUCH DOES A PIRATE PAY FOR AN EAR PIERCING?
 - name: PARROT
   slug: Parrot
   coincost: 5
   type: PIRATE
   play: +2g
-  fellowship: FELLOWSHIP&#58; +1g
+  combo: COMBO&#58; +1g
   gain: REPLACE A RANDOM MONSTERS LOOT WITH AN EPIC CHEST WHEN RECRUITED
   flavor: POLLY WANT A CRACKER!
 - name: EPIC CHEST
@@ -614,7 +614,7 @@
   coincost: 6
   type: PIRATE
   play: +2b
-  fellowship: FELLOWSHIP&#58; +2g
+  combo: COMBO&#58; +2g
   gain: TRANSFORM THE LEFTMOST 2 MONSTERS, PIKEMEN, OR STOOGES IN YOUR DISCARD PILE INTO ROVERS
   flavor: AYE AYE!
 - name: KOBOLD
@@ -897,7 +897,7 @@
   coincost: 5
   type: DWARF
   play: +2g
-  fellowship: FELLOWSHIP&#58; +1g
+  combo: COMBO&#58; +1g
   gain: REPLACE FOURTH SLOT WITH PIGGY BANK WHEN RECRUITED
   flavor: DID NOT DIE TRYING
 - name: PIGGY BANK
@@ -905,7 +905,7 @@
   coincost: 1
   type: ITEM
   gain: SAVE MONEY FOR LATER
-  fellowship: YOU CAN BREAK THE PIGGY BANK ONCE IT IS FULL
+  combo: YOU CAN BREAK THE PIGGY BANK ONCE IT IS FULL
   flavor: FOR A RAINY DAY
   status: 0
   state: 0
@@ -914,7 +914,7 @@
   coincost: 1
   type: ITEM
   gain: SAVE MONEY FOR LATER
-  fellowship: YOU CAN BREAK THE PIGGY BANK ONCE IT IS FULL
+  combo: YOU CAN BREAK THE PIGGY BANK ONCE IT IS FULL
   flavor: FOR A RAINY DAY
   status: 1
   state: 1
@@ -923,7 +923,7 @@
   coincost: 1
   type: ITEM
   gain: SAVE MONEY FOR LATER
-  fellowship: YOU CAN BREAK THE PIGGY BANK ONCE IT IS FULL
+  combo: YOU CAN BREAK THE PIGGY BANK ONCE IT IS FULL
   flavor: FOR A RAINY DAY
   status: 2
   state: 2
@@ -932,7 +932,7 @@
   coincost: 1
   type: ITEM
   gain: SAVE MONEY FOR LATER
-  fellowship: YOU CAN BREAK THE PIGGY BANK ONCE IT IS FULL
+  combo: YOU CAN BREAK THE PIGGY BANK ONCE IT IS FULL
   flavor: FOR A RAINY DAY
   status: 3
   state: 3
@@ -941,7 +941,7 @@
   coincost: 1
   type: ITEM
   gain: SAVE MONEY FOR LATER
-  fellowship: YOU CAN BREAK THE PIGGY BANK ONCE IT IS FULL
+  combo: YOU CAN BREAK THE PIGGY BANK ONCE IT IS FULL
   flavor: FOR A RAINY DAY
   status: 4
   state: 4
@@ -950,7 +950,7 @@
   coincost: 1
   type: ITEM
   gain: SAVE MONEY FOR LATER
-  fellowship: YOU CAN BREAK THE PIGGY BANK ONCE IT IS FULL
+  combo: YOU CAN BREAK THE PIGGY BANK ONCE IT IS FULL
   flavor: FOR A RAINY DAY
   status: 5
   state: 5
@@ -959,7 +959,7 @@
   coincost: 1
   type: ITEM
   gain: SAVE MONEY FOR LATER
-  fellowship: YOU CAN BREAK THE PIGGY BANK ONCE IT IS FULL
+  combo: YOU CAN BREAK THE PIGGY BANK ONCE IT IS FULL
   flavor: FOR A RAINY DAY
   status: 6
   state: 6
@@ -968,7 +968,7 @@
   bloodcost: 2
   type: ITEM
   gain: SAVE MONEY FOR LATER
-  fellowship: YOU CAN BREAK THE PIGGY BANK ONCE IT IS FULL
+  combo: YOU CAN BREAK THE PIGGY BANK ONCE IT IS FULL
   flavor: FOR A RAINY DAY
   status: 7
   state: 7
@@ -1020,7 +1020,7 @@
   coincost: 5
   type: NINJA MOUSE
   play: +2g
-  fellowship: +2b
+  combo: +2b
   gain: REPLACE THIRD SLOT WITH POW WHEN RECRUITED
   flavor: I MADE A FUNNY!
 - name: POW!
@@ -1034,7 +1034,7 @@
   coincost: 19
   type: NINJA
   play: +4b
-  fellowship: EVERY TIME A NINJA IS PLAYED REDUCE COST BY 3
+  combo: EVERY TIME A NINJA IS PLAYED REDUCE COST BY 3
   flavor: FEARED, ADMIRED AND AN ESENTIAL PART OF NATURE
   state: 0
 - name: KAMI
@@ -1042,7 +1042,7 @@
   coincost: 16
   type: NINJA
   play: +4b
-  fellowship: EVERY TIME A NINJA IS PLAYED REDUCE COST BY 3
+  combo: EVERY TIME A NINJA IS PLAYED REDUCE COST BY 3
   flavor: FEARED, ADMIRED AND AN ESENTIAL PART OF NATURE
   state: 1
 - name: KAMI
@@ -1050,7 +1050,7 @@
   coincost: 13
   type: NINJA
   play: +4b
-  fellowship: EVERY TIME A NINJA IS PLAYED REDUCE COST BY 3
+  combo: EVERY TIME A NINJA IS PLAYED REDUCE COST BY 3
   flavor: FEARED, ADMIRED AND AN ESENTIAL PART OF NATURE
   state: 2
 - name: KAMI
@@ -1058,7 +1058,7 @@
   coincost: 10
   type: NINJA
   play: +4b
-  fellowship: EVERY TIME A NINJA IS PLAYED REDUCE COST BY 3
+  combo: EVERY TIME A NINJA IS PLAYED REDUCE COST BY 3
   flavor: FEARED, ADMIRED AND AN ESENTIAL PART OF NATURE
   state: 3
 - name: KAMI
@@ -1066,7 +1066,7 @@
   coincost: 7
   type: NINJA
   play: +4b
-  fellowship: EVERY TIME A NINJA IS PLAYED REDUCE COST BY 3
+  combo: EVERY TIME A NINJA IS PLAYED REDUCE COST BY 3
   flavor: FEARED, ADMIRED AND AN ESENTIAL PART OF NATURE
   state: 4
 - name: KAMI
@@ -1074,7 +1074,7 @@
   coincost: 4
   type: NINJA
   play: +4b
-  fellowship: EVERY TIME A NINJA IS PLAYED REDUCE COST BY 3
+  combo: EVERY TIME A NINJA IS PLAYED REDUCE COST BY 3
   flavor: FEARED, ADMIRED AND AN ESENTIAL PART OF NATURE
   state: 5
 - name: KAMI
@@ -1082,7 +1082,7 @@
   coincost: 1
   type: NINJA
   play: +4b
-  fellowship: EVERY TIME A NINJA IS PLAYED REDUCE COST BY 3
+  combo: EVERY TIME A NINJA IS PLAYED REDUCE COST BY 3
   flavor: FEARED, ADMIRED AND AN ESENTIAL PART OF NATURE
   state: 6
 - name: SLEEPING BEAR

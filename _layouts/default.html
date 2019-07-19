@@ -130,13 +130,13 @@
     {{ card.gain | replace: "g", coin | replace: "b", blood }}
   </div>
 {% endif %}
-{% if card.fellowship %}
-  {% if card.fellowship.size > 40 %}
-  <div class="small card-fellowship">
+{% if card.combo %}
+  {% if card.combo.size > 40 %}
+  <div class="small card-combo">
   {% else %}
-  <div class="card-fellowship">
+  <div class="card-combo">
   {% endif %}
-    {{ card.fellowship | replace: "g", coin | replace: "b", blood }}
+    {{ card.combo | replace: "g", coin | replace: "b", blood }}
   </div>
 {% endif %}
 {% if card.flavor %}
