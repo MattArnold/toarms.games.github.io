@@ -427,9 +427,9 @@
 - name: ALCHEMIST
   slug: Alchemist
   coincost: 5
-  type: DWARF SORCERER
+  type: DWARF MAGI
   play: +2g +3b IF 4 OR MORE POTIONS ARE REMAINING
-  flavor: SHAKEN NOT STIRRED
+  flavor: ONE MANS MAGIC IS ANOTHER MANS ENGINEERING
 - name: BERSERK
   slug: Berserk
   coincost: 6
@@ -464,7 +464,7 @@
 - name: WIZARD
   slug: Wizard
   coincost: 6
-  type: SORCERER
+  type: MAGI
   play: +1b AND ADD 1 MAGIC MISSILE
   gain: REPLACE FIFTH SLOT WITH MAGIC MISSILE WHEN RECRUITED
   flavor: ARRIVES PRECISELY WHEN HE MEANS TO
@@ -519,20 +519,20 @@
 - name: PYROMANCER
   slug: Pyromancer
   coincost: 7
-  type: SORCERER
+  type: MAGI
   play: KILL AND BURY A RANDOM MONSTER IN THE TOP ROW WITH POWER 6 OR LESS
   flavor: BUUURN!
 - name: LEPRECHAUN
   slug: Leprechaun
   coincost: 6
-  type: SORCERER
+  type: MAGI
   play: +1g FOR EVERY MONSTER PILE
   gain: HEAL 3 DMG WHEN RECRUITED
   flavor: A POT OF GOLD!
 - name: SHAMAN
   slug: Shaman
   coincost: 7
-  type: SORCERER
+  type: MAGI
   play: GIVE A RANDOM MONSTER PILE -1 POWER AND BURY A MONSTER
   flavor: ASANTE SANA SQUASH BANANA WEWE NUGU MIMI HAPANA
 - name: HOBURGLAR
@@ -628,7 +628,7 @@
 - name: RECONCOCTER
   slug: Reconcocter
   coincost: 5
-  type: SORCERER
+  type: MAGI
   play: +1g +1b
   gain: REPLACE FOURTH SLOT WITH POLYMORPH WHEN RECRUITED
   flavor: FOR BETTER OR FOR WORSE
@@ -647,14 +647,14 @@
 - name: CHAMELEON
   slug: Chameleon
   bloodcost: 3
-  type: MONSTER ELF HOLY NINJA MOUSE PIRATE SOLDIER WARRIOR ANTIHERO SORCERER
+  type: MONSTER ELF HOLY NINJA MOUSE PIRATE SOLDIER WARRIOR ANTIHERO MAGI
   pain: 0
   play: WHEN PLAYED&#58; +2b
   flavor: A TOTAL WANNABE!
 - name: HERMIT
   slug: Hermit
   coincost: 5
-  type: HOLY SORCERER
+  type: HOLY MAGI
   play: +3g +2b IF NO MORE THAN 5 UNITS WERE PLAYED THIS ROUND
   flavor: HATES PARTIES AND OTHER SOCIAL ACTIVITIES
 - name: FALLEN
@@ -827,7 +827,7 @@
 - name: AVATAR
   slug: Avatar
   coincost: 8
-  type: SORCEROR
+  type: MAGI
   play: +1b FOR EACH FOCUS
   flavor: SO MUCH MORE THAN A PROFILE PICTURE
 - name: FOCUS
