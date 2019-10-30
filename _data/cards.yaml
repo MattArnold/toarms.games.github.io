@@ -553,7 +553,7 @@
   flavor: UNDER THE SEA!
 - name: GHOUL
   slug: Ghoul
-  bloodcost: 2
+  bloodcost: 6
   type: MONSTER
   pain: 1
   trick: TRICK&#58; -1b
