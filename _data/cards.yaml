@@ -476,7 +476,7 @@
   flavor: NO NONSENSE MAGIC
 - name: RATMAN
   slug: Ratman
-  bloodcost: 5
+  bloodcost: 3
   type: MONSTER
   pain: 1
   play: WHEN PLAYED&#58; +1b AND BURY A MONSTER
