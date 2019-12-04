@@ -10,19 +10,19 @@
   slug: Potion
   coincost: 2
   type: ITEM
-  gain: HEAL 5 DMG WHEN BOUGHT
+  gain: HEAL 5 DMG
   flavor: RECOMMENDED WITH A SPOON FULL OF SUGAR
 - name: BLOOD COIN
   slug: BloodCoin
   bloodcost: 2
   type: ITEM
-  gain: +1g WHEN BOUGHT
+  gain: +1g
   flavor: IT IS NOTHING PERSONAL
 - name: SHURIKEN
   slug: Shuriken
   coincost: 2
   type: ITEM
-  gain: +1b WHEN BOUGHT
+  gain: +1b
   flavor: SILENT AND DEADLY
 - name: SWORDSMAN
   slug: Swordsman
@@ -88,7 +88,7 @@
   slug: Painkillers
   coincost: 1
   type: ITEM
-  gain: HEAL 1 DMG WHEN BOUGHT
+  gain: HEAL 1 DMG
   flavor: POP A PILL!
 - name: SLEEPING HOB
   slug: Sleeping-Hob
@@ -108,7 +108,7 @@
   slug: Shovel
   coincost: 1
   type: ITEM
-  gain: BURY A MONSTER WHEN BOUGHT
+  gain: BURY A MONSTER
   flavor: PUT EM IN THE GROUND
 - name: ORC
   slug: Orc
@@ -142,7 +142,7 @@
   slug: SilverChest
   coincost: 1
   type: ITEM
-  gain: +2g WHEN BOUGHT
+  gain: +2g
   flavor: MONEY TALKS!
 - name: CYCLOPS
   slug: Cyclops
@@ -164,7 +164,7 @@
   type: HOLY
   play: +2g
   combo: COMBO&#58; +1g
-  gain: BURY A MONSTER AND HEAL 3 DMG WHEN RECRUITED
+  gain: BURY A MONSTER AND HEAL 3 DMG
   flavor: AMEN!
 - name: MONK
   slug: Monk
@@ -172,7 +172,7 @@
   type: HOLY WARRIOR
   play: +2b
   combo: COMBO&#58; +1g
-  gain: BURY A MONSTER WHEN RECRUITED
+  gain: BURY A MONSTER
   flavor: TRANQUILITY AND KICKASSNESS
 - name: NUN
   slug: Nun
@@ -180,20 +180,20 @@
   type: HOLY NINJA
   play: +2b
   combo: COMBO&#58; +1b
-  gain: BURY 3 MONSTERS WHEN RECRUITED
+  gain: BURY 3 MONSTERS
   flavor: AAAAAVEEE…MARIIIIIIIA!
 - name: PALADIN
   slug: Paladin
   coincost: 9
   type: HOLY
   play: +4b
-  gain: HEAL 7 DMG WHEN RECRUITED
+  gain: HEAL 7 DMG
   flavor: MEMBER OF THE GOD SQUAD
 - name: BOMB
   slug: Bomb
   coincost: 2
   type: ITEM
-  gain: +3b AND TAKE 2 DMG WHEN BOUGHT
+  gain: +3b AND TAKE 2 DMG
   flavor: KABOOM!
 - name: SKELETON
   slug: Skeleton
@@ -220,7 +220,7 @@
   coincost: 7
   type: WARRIOR
   play: +3b
-  gain: TRANSFORM THE 3 LEFTMOST UNITS IN YOUR DISCARD PILE INTO GLADIATORS WHEN RECRUITED
+  gain: TRANSFORM THE 3 LEFTMOST UNITS IN YOUR DISCARD PILE INTO GLADIATORS
   flavor: BRAVE. HONORABLE AND EXTREMELY POPULAR ON THE INTERNET
 - name: VIKING
   slug: Viking
@@ -234,7 +234,7 @@
   coincost: 4
   type: WARRIOR
   play: +3b
-  gain: TAKE 5 DMG WHEN RECRUITED
+  gain: TAKE 5 DMG
   flavor: CROM!
 - name: LIZARDMAN
   slug: Lizardman
@@ -253,7 +253,7 @@
   slug: GoldChest
   coincost: 1
   type: ITEM
-  gain: +3g WHEN BOUGHT
+  gain: +3g
   flavor: MONEY TALKS!
 - name: NECRO GUARD
   slug: NecroGuard
@@ -274,14 +274,14 @@
   coincost: 5
   type: ELF
   play: +2g AND d PLAY A UNIT FROM YOUR DECK
-  gain: HEAL 2 DMG FOR EVERY ELF PLAYED WHEN RECRUITED
+  gain: HEAL 2 DMG FOR EVERY ELF PLAYED
   flavor: LIKE PEACH BUT EVEN COOLER
 - name: ZOMBIE
   slug: Zombie
   bloodcost: 3
   type: INTRUDING MONSTER
   pain: 1
-  gain: HEAL 5 DMG AND BURY WHEN DEFEATED 
+  gain: HEAL 5 DMG AND BURY 
   flavor: BRAAAINS!
 - name: WEREWOLF
   slug: Werewolf
@@ -314,14 +314,14 @@
   coincost: 4
   type: PIRATE MOUSE
   play: +1g +1b
-  gain: TRANSFORM THE 2 LEFTMOST UNITS IN YOUR DISCARD PILE INTO ROVERS WHEN RECRUITED
+  gain: TRANSFORM THE 2 LEFTMOST UNITS IN YOUR DISCARD PILE INTO ROVERS
   flavor: ARRR!
 - name: TROOPER
   slug: Trooper
   coincost: 4
   type: MOUSE SOLDIER
   play: +2g
-  gain: +3g WHEN RECRUITED
+  gain: +3g
   flavor: THE MICE ARE MARCHING OUT TO WAR!
 - name: FENCER
   slug: Fencer
@@ -329,7 +329,7 @@
   type: MOUSE
   play: +2b
   combo: COMBO&#58; +1g +1b
-  gain: +3g WHEN RECRUITED
+  gain: +3g
   flavor: EN GARDE!
 - name: WAITER
   slug: Waiter
@@ -343,26 +343,26 @@
   coincost: 6
   type: MOUSE
   play: +2g +2b
-  gain: REPLACE THIRD SLOT WITH CHEESE WHEN RECRUITED
+  gain: REPLACE THIRD SLOT WITH CHEESE
   flavor: OH BOY!
 - name: CHEESE
   slug: Cheese
   coincost: 2
   type: ITEM
-  gain: +1b FOR EVERY MOUSE PLAYED WHEN BOUGHT
+  gain: +1b FOR EVERY MOUSE PLAYED
   flavor: IT IS NOT EXAGGERATED&#8230; THEY ABSOLUTELY LOVE THAT STUFF
 - name: GRAVE DIGGER
   slug: GraveDigger
   bloodcost: 2
   type: INTRUDING MONSTER
   pain: 0
-  gain: BURY THIS AND ANOTHER MONSTER WHEN DEFEATED
+  gain: BURY THIS AND ANOTHER MONSTER
   flavor: IS THAT A STOOGE CAP OR A DEAD STOOGE?
 - name: MUTAGEN
   slug: Mutagen
   coincost: 3
   type: ITEM
-  gain: TRANSFORM THE LEFTMOST UNIT IN YOUR DISCARD PILE INTO A MUTANT WHEN BOUGHT
+  gain: TRANSFORM THE LEFTMOST UNIT IN YOUR DISCARD PILE INTO A MUTANT
   flavor: A SMALL CANISTER HOLDING A GLOWING OOZE
 - name: RED
   slug: Red
@@ -396,7 +396,7 @@
   type: NINJA
   play: +2b
   combo: COMBO&#58; +1b
-  gain: REPLACE FIFTH SLOT WITH MUTAGEN WHEN RECRUITED
+  gain: REPLACE FIFTH SLOT WITH MUTAGEN
   flavor: COWABUNGA DUDE!
 - name: RASPER
   slug: Rasper
@@ -408,52 +408,52 @@
 - name: HUNTER
   slug: Hunter
   coincost: 5
-  type: DWARF
+  type: GNOME
   play: +4b IF THERE ARE NO MONSTERS IN THE TOP ROW WITH POWER 6 OR LESS
   flavor: IVE GOT THE BEAST IN MY SIGHTS
 - name: KING
   slug: King
   coincost: 9
-  type: DWARF
+  type: GNOME
   play: +2g +2b
-  gain: ADD 2 POTIONS 2 BLOOD COINS AND 2 SHURIKENS WHEN RECRUITED
+  gain: ADD 2 POTIONS 2 BLOOD COINS AND 2 SHURIKENS
   flavor: HAIL TO THE KING BABY!
 - name: HUSTLER
   slug: Hustler
   coincost: 5
-  type: DWARF
+  type: GNOME
   play: +1g FOR EVERY REMAINING BLOOD COIN
   flavor: EVERY DAY IM EVERY DAY IM EVERY DAY IM HUSTLIN!
 - name: ALCHEMIST
   slug: Alchemist
   coincost: 5
-  type: DWARF MAGI
+  type: GNOME MAGI
   play: +2g +3b IF 4 OR MORE POTIONS ARE REMAINING
   flavor: ONE MANS MAGIC IS ANOTHER MANS ENGINEERING
 - name: BERSERK
   slug: Berserk
   coincost: 6
-  type: DWARF WARRIOR
+  type: GNOME WARRIOR
   play: +4b IF LESS THAN 22 LIFE IS REMAINING
   flavor: RAAAAAW!
 - name: BEER
   slug: Beer
   coincost: 1
   type: ITEM
-  gain: GIVE A 4g DISCOUNT TO A RANDOM RECRUIT IN THE UNIT OFFER, AND HEAL 1 DMG WHEN BOUGHT
+  gain: GIVE A 4g DISCOUNT TO A RANDOM RECRUIT IN THE UNIT OFFER, AND HEAL 1 DMG
   flavor: BUUURP!
 - name: WARLOCK
   slug: Warlock
   bloodcost: 3
   type: INTRUDING MONSTER
   pain: 1
-  gain: BURY THIS AND 3 STOOGES OR PIKEMEN WHEN DEFEATED
+  gain: BURY THIS AND 3 STOOGES OR PIKEMEN
   flavor: MUAHAHAHA!!
 - name: DAGGER
   slug: Dagger
   bloodcost: 1
   type: ITEM
-  gain: BURY THE LEFTMOST UNIT IN YOUR DISCARD PILE WHEN BOUGHT. HEAL 1 DMG FOR EACH UNIT BURIED THIS WAY
+  gain: BURY THE LEFTMOST UNIT IN YOUR DISCARD PILE. HEAL 1 DMG FOR EACH UNIT BURIED THIS WAY
   flavor: THE SACRIFICIAL KIND
 - name: NECROMANCER
   slug: Necromancer
@@ -466,13 +466,13 @@
   coincost: 6
   type: MAGI
   play: +1b AND ADD 1 MAGIC MISSILE
-  gain: REPLACE FIFTH SLOT WITH MAGIC MISSILE WHEN RECRUITED
+  gain: REPLACE FIFTH SLOT WITH MAGIC MISSILE
   flavor: ARRIVES PRECISELY WHEN HE MEANS TO
 - name: MAGIC MISSILE
   slug: MagicMissile
   bloodcost: 1
   type: SPELL
-  gain: +2b WHEN BOUGHT
+  gain: +2b
   flavor: NO NONSENSE MAGIC
 - name: RATMAN
   slug: Ratman
@@ -493,14 +493,14 @@
   bloodcost: 3
   type: INTRUDING MONSTER
   pain: 0
-  gain: TRANSFORMS INTO THE LEFTMOST UNIT IN YOUR DISCARD PILE WHEN DEFEATED
+  gain: TRANSFORMS INTO THE LEFTMOST UNIT IN YOUR DISCARD PILE
   flavor: I AM NO ONE AND EVERYONE
 - name: WITCH
   slug: Witch
   coincost: 6
   type: ANTIHERO
   play: +2g +1b
-  gain: HEAL 2 DMG FOR EVERY MONSTER PILE IN THE TOP ROW WHEN RECRUITED
+  gain: HEAL 2 DMG FOR EVERY MONSTER PILE IN THE TOP ROW
   flavor: A LITTLE WICKED BUT MORE WICKED-COOL
 - name: SHADE
   slug: Shade
@@ -527,7 +527,7 @@
   coincost: 6
   type: MAGI
   play: +1g FOR EVERY MONSTER PILE
-  gain: HEAL 3 DMG WHEN RECRUITED
+  gain: HEAL 3 DMG
   flavor: A POT OF GOLD!
 - name: SHAMAN
   slug: Shaman
@@ -586,7 +586,7 @@
   coincost: 5
   type: ANTIHERO
   play: +2b
-  gain: REPLACE SECOND SLOT WITH DAGGERS WHEN RECRUITED
+  gain: REPLACE SECOND SLOT WITH DAGGERS
   flavor: FOR THE GREAT ONE!
 - name: BUCCANEER
   slug: Buccaneer
@@ -601,13 +601,13 @@
   type: PIRATE
   play: +2g
   combo: COMBO&#58; +1g
-  gain: REPLACE A RANDOM MONSTERS LOOT WITH AN EPIC CHEST WHEN RECRUITED
+  gain: REPLACE A RANDOM MONSTERS LOOT WITH AN EPIC CHEST
   flavor: POLLY WANT A CRACKER!
 - name: EPIC CHEST
   slug: EpicChest
   coincost: 1
   type: ITEM
-  gain: +2g +1b. BURY A MONSTER AND HEAL 3 DMG WHEN BOUGHT
+  gain: +2g +1b. BURY A MONSTER AND HEAL 3 DMG
   flavor: EPIC!
 - name: CAPTAIN
   slug: Captain
@@ -630,13 +630,13 @@
   coincost: 5
   type: MAGI
   play: +1g +1b
-  gain: REPLACE FOURTH SLOT WITH POLYMORPH WHEN RECRUITED
+  gain: REPLACE FOURTH SLOT WITH POLYMORPH
   flavor: FOR BETTER OR FOR WORSE
 - name: POLYMORPH
   slug: Polymorph
   bloodcost: 1
   type: SPELL
-  gain: TRANSFORM THE TOP UNIT IN YOUR DISCARD PILE INTO A RANDOM UNIT WHEN CAST
+  gain: TRANSFORM THE TOP UNIT IN YOUR DISCARD PILE INTO A RANDOM UNIT
   flavor: BAAAH!
 - name: BEGGAR
   slug: Beggar
@@ -794,14 +794,14 @@
   bloodcost: 6
   type: INTRUDING MONSTER
   pain: 2
-  gain: GAIN 1 BATTLE POINT AND BURY WHEN DEFEATED
+  gain: GAIN 1 BATTLE POINT AND BURY
   flavor: THEM! THEM! THEM!
 - name: GIANT
   slug: Giant
   bloodcost: 12
   type: INTRUDING MONSTER
   pain: 1
-  gain: GAIN 1 BATTLE POINT AND BURY WHEN DEFEATED
+  gain: GAIN 1 BATTLE POINT AND BURY
   flavor: TINY HUMAN &#8230; YOU BE PERFECT SNACK!
 - name: SLOWCOACH
   slug: Slowcoach
@@ -815,7 +815,7 @@
   slug: Sandglass
   coincost: 3
   type: ITEM
-  gain: +3 ROUNDS WHEN BOUGHT
+  gain: +3 ROUNDS
   flavor: ALL WE HAVE TO DECIDE IS WHAT TO DO WITH THE TIME THAT IS GIVEN US
 - name: RAPTOR
   slug: Raptor
@@ -895,10 +895,10 @@
 - name: TYCOON
   slug: Tycoon
   coincost: 5
-  type: DWARF
+  type: GNOME
   play: +2g
   combo: COMBO&#58; +1g
-  gain: REPLACE FOURTH SLOT WITH PIGGY BANK WHEN RECRUITED
+  gain: REPLACE FOURTH SLOT WITH PIGGY BANK
   flavor: DID NOT DIE TRYING
 - name: PIGGY BANK
   slug: PiggyBank
@@ -991,21 +991,21 @@
   coincost: 5
   type: ELF ANTIHERO
   play: dd PLAY TWO UNITS FROM YOUR DECK
-  gain: TAKE 3 DMG WHEN RECRUITED
+  gain: TAKE 3 DMG
   flavor: EYES IN THE DARK
 - name: DARK DRUID
   slug: DarkDruid
   coincost: 3
   type: ELF ANTIHERO
   play: +1g AND d PLAY A UNIT FROM YOUR DECK
-  gain: BURY THE LEFTMOST UNIT IN YOUR DISCARD PILE AND TAKE 2 DMG WHEN RECRUITED
+  gain: BURY THE LEFTMOST UNIT IN YOUR DISCARD PILE AND TAKE 2 DMG
   flavor: NO DAWN WITHOUT DUSK
 - name: DARK ELITE
   slug: DarkElite
   coincost: 7
   type: ELF ANTIHERO
   play: +2b AND d PLAY A UNIT FROM YOUR DECK
-  gain: BURY 2 MONSTERS, PIKEMEN OR STOOGES AND TAKE 4 DMG WHEN RECRUITED
+  gain: BURY 2 MONSTERS, PIKEMEN OR STOOGES AND TAKE 4 DMG
   flavor: ONE WHO WENT BELOW
 - name: HYDRA
   slug: Hydra
@@ -1021,13 +1021,13 @@
   type: NINJA MOUSE
   play: +2g
   combo: +2b
-  gain: REPLACE THIRD SLOT WITH POW WHEN RECRUITED
+  gain: REPLACE THIRD SLOT WITH POW
   flavor: I MADE A FUNNY!
 - name: POW!
   slug: Pow!
   bloodcost: 2
   type: ACTION
-  gain: KILL A RANDOM MONSTER IN THE TOP ROW WITH POWER 4 OR LESS WHEN PERFORMED
+  gain: KILL A RANDOM MONSTER IN THE TOP ROW WITH POWER 4 OR LESS
   flavor: DO NO HARM. UNLESS YOU MEAN TO DO HARM. THEN DO LOTS OF HARM
 - name: KAMI
   slug: Kami
@@ -1106,7 +1106,7 @@
   coincost: 4
   type: WORKER
   play: +2g
-  gain: HEAL 10 DMG AND LOSE 4 ROUNDS WHEN RECRUITED
+  gain: HEAL 10 DMG AND LOSE 4 ROUNDS
   flavor: THIS WILL ONLY HURT A LITTLE
 - name: SKULL
   slug: Skull
@@ -1124,7 +1124,7 @@
   slug: ArcaneMissile
   type: ITEM
   skullcost: 1
-  gain: +7b WHEN BOUGHT
+  gain: +7b
   flavor: NOT YOUR AVERAGE MISSILE
 - name: SHOVEL+
   slug: ShovelPlus
@@ -1155,7 +1155,7 @@
   slug: Gem
   type: ITEM
   skullcost: 1
-  gain: +4g WHEN BOUGHT
+  gain: +4g
   flavor: BLING-BLING
 - name: NINJA SCROLL
   slug: NinjaScroll
@@ -1247,23 +1247,23 @@
   skullcost: 5
   gain: ONGOING&#58; IF AT LEAST 1 HOLY UNIT IS PLAYED, HEAL 2 DMG
   state: 2
-- name: DWARF SCROLL
+- name: GNOME SCROLL
   slug: DwarfScroll
   type: UPGRADE LVL 1
   skullcost: 5
-  gain: ADD A CHARGE EACH TIME A DWARF IS PLAYED. 7 CHARGES GIVES A POTION
+  gain: ADD A CHARGE EACH TIME A GNOME IS PLAYED. 7 CHARGES GIVES A POTION
   state: 0
-- name: DWARF SCROLL
+- name: GNOME SCROLL
   slug: DwarfScroll
   type: UPGRADE LVL 2
   skullcost: 5
-  gain: ADD A CHARGE EACH TIME A DWARF IS PLAYED. 5 CHARGES GIVES A POTION
+  gain: ADD A CHARGE EACH TIME A GNOME IS PLAYED. 5 CHARGES GIVES A POTION
   state: 1
-- name: DWARF SCROLL
+- name: GNOME SCROLL
   slug: DwarfScroll
   type: UPGRADE LVL 3
   skullcost: 5
-  gain: ADD A CHARGE EACH TIME A DWARF IS PLAYED. 3 CHARGES GIVES A POTION
+  gain: ADD A CHARGE EACH TIME A GNOME IS PLAYED. 3 CHARGES GIVES A POTION
   state: 2
 - name: SOLO SCROLL
   slug: SoloScroll

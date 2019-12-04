@@ -127,7 +127,7 @@
   {% else %}
   <div class="card-gain">
   {% endif %}
-    {{ card.gain | replace: "g", coin | replace: "b", blood }}
+    BUY: {{ card.gain | replace: "g", coin | replace: "b", blood }}
   </div>
 {% endif %}
 {% if card.combo %}
@@ -228,6 +228,7 @@ fitty('.card-name', {maxSize: 23, multiLine: false});
         }
       }
     });
+    fitty.fitAll();
   }
 </script>
 </html>
