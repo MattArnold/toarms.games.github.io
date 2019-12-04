@@ -95,14 +95,14 @@
   bloodcost: 2
   type: MONSTER
   pain: 0
-  play: WHEN PLAYED&#58; ZZZZZ …
+  play: ZZZZZ …
   flavor: z … SNORE … z
 - name: HOB
   slug: Hob
   bloodcost: 3
   type: MONSTER
   pain: 1
-  play: WHEN PLAYED&#58; ZZZZZ …
+  play: ZZZZZ …
   flavor: MORE ANNOYING THAN DANGEROUS
 - name: SHOVEL
   slug: Shovel
@@ -115,28 +115,28 @@
   bloodcost: 6
   type: MONSTER
   pain: 1
-  play: WHEN PLAYED&#58; ZZZZZ …
+  play: ZZZZZ …
   flavor: MEAN GREEN KILLING MACHINE
 - name: GOBLIN
   slug: Goblin
   bloodcost: 4
   type: MONSTER
   pain: 1
-  play: WHEN PLAYED&#58; -1g
+  play: -1g
   flavor: NO! THEY ARE NOT CUTE!
 - name: WRAITH
   slug: Wraith
   bloodcost: 4
   type: MONSTER
   pain: 1
-  play: WHEN PLAYED&#58; -1b
+  play: -1b
   flavor: BOOOOO!
 - name: IMP
   slug: Imp
   bloodcost: 3
   type: MONSTER
   pain: 2
-  play: WHEN PLAYED&#58; +1b
+  play: +1b
   flavor: ALMOST AS DEADLY AS THEY ARE ANNOYING
 - name: SILVER CHEST
   slug: SilverChest
@@ -149,7 +149,7 @@
   bloodcost: 8
   type: MONSTER
   pain: 1
-  play: WHEN PLAYED&#58; dd PLAY TWO UNITS FROM YOUR DECK
+  play: dd PLAY TWO UNITS FROM YOUR DECK
   flavor: 20 20 VISION IN 2D
 - name: CLERIC
   slug: Cleric
@@ -200,7 +200,7 @@
   bloodcost: 3
   type: MONSTER
   pain: 1
-  play: WHEN PLAYED&#58; TAKE 1 DMG
+  play: TAKE 1 DMG
   flavor: BONE THUG
 - name: GLADIATOR
   slug: Gladiator
@@ -241,7 +241,7 @@
   bloodcost: 5
   type: MONSTER
   pain: 2
-  play: WHEN PLAYED&#58; +2g
+  play: +2g
   flavor: SSSSSSSSSSS!
 - name: VOODOO DOLL
   slug: VoodooDoll
@@ -260,14 +260,14 @@
   bloodcost: 7
   type: MONSTER
   pain: 1
-  play: WHEN PLAYED&#58; TAKE 2 DMG
+  play: TAKE 2 DMG
   flavor: WORST BOUNCER EVER
 - name: SPIDER
   slug: Spider
   bloodcost: 9
   type: MONSTER
   pain: 1
-  play: WHEN PLAYED&#58; BURY 2 STOOGES OR PIKEMEN
+  play: BURY 2 STOOGES OR PIKEMEN
   flavor: WICKED WEBSPINNER
 - name: PRINCESS
   slug: Princess
@@ -288,7 +288,7 @@
   bloodcost: 4
   type: INTRUDING MONSTER
   pain: 1
-  play: WHEN PLAYED&#58; +3b
+  play: +3b
   flavor: GOOD DOGGY!
 - name: BRONZE CHEST
   slug: BronzeChest
@@ -307,7 +307,7 @@
   bloodcost: 13
   type: MONSTER
   pain: 1
-  play: WHEN PLAYED&#58; HEAL 3 DMG
+  play: HEAL 3 DMG
   flavor: WICKED BEFORE IT WAS COOL
 - name: ROVER
   slug: Rover
@@ -403,7 +403,7 @@
   bloodcost: 7
   type: MONSTER
   pain: 1
-  play: WHEN PLAYED&#58; +2b
+  play: +2b
   flavor: A KITCHEN UTENSIL?
 - name: HUNTER
   slug: Hunter
@@ -479,14 +479,14 @@
   bloodcost: 3
   type: MONSTER
   pain: 1
-  play: WHEN PLAYED&#58; +1b AND BURY A MONSTER
+  play: +1b AND BURY A MONSTER
   flavor: STAYS TRUE TO HORNED ONE
 - name: GRIM REAPER
   slug: GrimReaper
   bloodcost: 5
   type: MONSTER
   pain: 1
-  play: WHEN PLAYED&#58; BURY THE LEFTMOST UNIT IN YOUR DISCARD PILE
+  play: BURY THE LEFTMOST UNIT IN YOUR DISCARD PILE
   flavor: I AM DEATH.
 - name: SHAPESHIFTER
   slug: Shapeshifter
@@ -507,14 +507,14 @@
   bloodcost: 7
   type: MONSTER
   pain: 3
-  play: WHEN PLAYED&#58; ADD 1 SHURIKEN
+  play: ADD 1 SHURIKEN
   flavor: YOU SHOULD PROBABLY STAY IN THE SUN
 - name: COLOSSUS
   slug: Colossus
   bloodcost: 10
   type: MONSTER
   pain: 1
-  play: WHEN PLAYED&#58; +5b
+  play: +5b
   flavor: THE SILENT TYPE
 - name: PYROMANCER
   slug: Pyromancer
@@ -541,7 +541,7 @@
   type: MONSTER
   pain: 1
   trick: TRICK&#58; -1g
-  play: WHEN PLAYED&#58; +1g
+  play: +1g
   flavor: EVEN MORE ANNOYING!
 - name: PIRANHA
   slug: Piranha
@@ -549,7 +549,7 @@
   type: MONSTER
   pain: 2
   trick: TRICK&#58; +1g
-  play: WHEN PLAYED&#58; z
+  play: z
   flavor: UNDER THE SEA!
 - name: GHOUL
   slug: Ghoul
@@ -557,7 +557,7 @@
   type: MONSTER
   pain: 1
   trick: TRICK&#58; -1b
-  play: WHEN PLAYED&#58; z
+  play: z
   flavor: SLOW BUT DEADLY
 - name: MAD SCIENTIST
   slug: MadScientist
@@ -565,7 +565,7 @@
   type: MONSTER
   pain: 0
   trick: TRICK&#58; GIVE A RANDOM MONSTER PILE +1 POWER
-  play: WHEN PLAYED&#58; +1g +2b
+  play: +1g +2b
   flavor: WHO IS LAUGHING NOW?
 - name: LICH KING
   slug: LichKing
@@ -573,7 +573,7 @@
   type: MONSTER
   pain: 1
   trick: TRICK&#58; TRANSFORM A STOOGE OR A PIKEMAN INTO A SKELETON
-  play: WHEN PLAYED&#58; +2g +1b
+  play: +2g +1b
   flavor: RULER OF THE DEAD
 - name: ULTIMATE
   slug: Ultimate
@@ -623,7 +623,7 @@
   type: MONSTER
   pain: 1
   trick: TRICK&#58; +1 KOBOLD FOR EACH g ABOVE 5 THAT WAS GAINED THIS ROUND
-  play: WHEN PLAYED&#58; -1g
+  play: -1g
   flavor: NO GOLD FOR YOU!
 - name: RECONCOCTER
   slug: Reconcocter
@@ -649,7 +649,7 @@
   bloodcost: 3
   type: MONSTER ELF HOLY NINJA MOUSE PIRATE SOLDIER WARRIOR ANTIHERO MAGI
   pain: 0
-  play: WHEN PLAYED&#58; +2b
+  play: +2b
   flavor: A TOTAL WANNABE!
 - name: HERMIT
   slug: Hermit
@@ -663,7 +663,7 @@
   type: MONSTER
   pain: 1
   trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
-  play: WHEN PLAYED&#58; +2b
+  play: +2b
   flavor: ONCE AN ANGEL &#8230;
   state: 0
 - name: FALLEN
@@ -672,7 +672,7 @@
   type: MONSTER
   pain: 1
   trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
-  play: WHEN PLAYED&#58; +2b
+  play: +2b
   flavor: ONCE AN ANGEL &#8230;
   state: 1
 - name: FALLEN
@@ -681,7 +681,7 @@
   type: MONSTER
   pain: 1
   trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
-  play: WHEN PLAYED&#58; +2b
+  play: +2b
   flavor: ONCE AN ANGEL &#8230;
   state: 2
 - name: FALLEN
@@ -690,7 +690,7 @@
   type: MONSTER
   pain: 1
   trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
-  play: WHEN PLAYED&#58; +2b
+  play: +2b
   flavor: ONCE AN ANGEL &#8230;
   state: 3
 - name: FALLEN
@@ -699,7 +699,7 @@
   type: MONSTER
   pain: 1
   trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
-  play: WHEN PLAYED&#58; +2b
+  play: +2b
   flavor: ONCE AN ANGEL &#8230;
   state: 4
 - name: FALLEN
@@ -708,7 +708,7 @@
   type: MONSTER
   pain: 1
   trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
-  play: WHEN PLAYED&#58; +2b
+  play: +2b
   flavor: ONCE AN ANGEL &#8230;
   state: 5
 - name: FALLEN
@@ -717,7 +717,7 @@
   type: MONSTER
   pain: 1
   trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
-  play: WHEN PLAYED&#58; +2b
+  play: +2b
   flavor: ONCE AN ANGEL &#8230;
   state: 6
 - name: FALLEN
@@ -726,7 +726,7 @@
   type: MONSTER
   pain: 1
   trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
-  play: WHEN PLAYED&#58; +2b
+  play: +2b
   flavor: ONCE AN ANGEL &#8230;
   state: 7
 - name: FALLEN
@@ -735,7 +735,7 @@
   type: MONSTER
   pain: 1
   trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
-  play: WHEN PLAYED&#58; +2b
+  play: +2b
   flavor: ONCE AN ANGEL &#8230;
   state: 8
 - name: FALLEN
@@ -744,7 +744,7 @@
   type: MONSTER
   pain: 1
   trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
-  play: WHEN PLAYED&#58; +2b
+  play: +2b
   flavor: ONCE AN ANGEL &#8230;
   state: 9
 - name: FALLEN
@@ -753,7 +753,7 @@
   type: MONSTER
   pain: 1
   trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
-  play: WHEN PLAYED&#58; +2b
+  play: +2b
   flavor: ONCE AN ANGEL &#8230;
   state: 10
 - name: FALLEN
@@ -762,7 +762,7 @@
   type: MONSTER
   pain: 1
   trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
-  play: WHEN PLAYED&#58; +2b
+  play: +2b
   flavor: ONCE AN ANGEL &#8230;
   state: 11
 - name: FALLEN
@@ -771,7 +771,7 @@
   type: MONSTER
   pain: 1
   trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
-  play: WHEN PLAYED&#58; +2b
+  play: +2b
   flavor: ONCE AN ANGEL &#8230;
   state: 12
 - name: FALLEN
@@ -780,7 +780,7 @@
   type: MONSTER
   pain: 1
   trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
-  play: WHEN PLAYED&#58; +2b
+  play: +2b
   flavor: YOU GET THE IDEA &#8230;
   state: 13
 - name: HITMAN
@@ -809,7 +809,7 @@
   type: MONSTER
   pain: 1
   trick: TRICK&#58; -1 ROUND
-  play: WHEN PLAYED&#58; z
+  play: z
   flavor: YOU SNOOZE&#8230; YOU LOSE
 - name: SANDGLASS
   slug: Sandglass
@@ -822,7 +822,7 @@
   bloodcost: 3
   type: MONSTER
   pain: 1
-  play: WHEN PLAYED&#58; +2b AND TAKE 1 DMG FOR EVERY RAPTOR IN A MONSTER PILE
+  play: +2b AND TAKE 1 DMG FOR EVERY RAPTOR IN A MONSTER PILE
   flavor: CLEVER GIRLS
 - name: AVATAR
   slug: Avatar
@@ -984,7 +984,7 @@
   type: MONSTER
   pain: 2
   trick: TRICK&#58; A WEREWOLF INVADES
-  play: WHEN PLAYED&#58; +3b
+  play: +3b
   flavor: THE BITE IS A GIFT!
 - name: DARK SCOUT
   slug: DarkScout
@@ -1013,7 +1013,7 @@
   type: MONSTER
   pain: 1
   trick: TRICK&#58; +2 HYDRAS -UP TO 6-
-  play: WHEN PLAYED&#58; HEAL 2 DMG
+  play: HEAL 2 DMG
   flavor: A SUDDEN HEAD-COUNT RISE
 - name: SENSEI
   slug: Sensei
@@ -1091,7 +1091,7 @@
   type: MONSTER
   pain: 0
   trick: WILL WAKE UP
-  play: WHEN PLAYED&#58; z
+  play: z
   flavor: FAST ASLEEP… I THINK
 - name: ANGRY BEAR
   slug: AngryBear
@@ -1099,7 +1099,7 @@
   type: MONSTER
   pain: 4
   trick: WOKEN UP!
-  play: WHEN PLAYED&#58; +2b
+  play: +2b
   flavor: OH NO
 - name: MEDIC
   slug: Medic
