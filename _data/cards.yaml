@@ -117,6 +117,13 @@
   pain: 1
   play: ZZZZZ …
   flavor: MEAN GREEN KILLING MACHINE
+- name: PRO ORC
+  slug: ProOrc
+  bloodcost: 6
+  type: MONSTER
+  pain: 2
+  play: ZZZ
+  flavor: MEANER GREENER KILLING MACHINE…ER?
 - name: GOBLIN
   slug: Goblin
   bloodcost: 4
@@ -124,6 +131,13 @@
   pain: 1
   play: -1g
   flavor: NO! THEY ARE NOT CUTE!
+- name: PRO GOBLIN
+  slug: ProGoblin
+  bloodcost: 5
+  type: MONSTER
+  pain: 1
+  play: -2g
+  flavor: YOU SEE? NOT CUTE!
 - name: WRAITH
   slug: Wraith
   bloodcost: 4
@@ -131,6 +145,13 @@
   pain: 1
   play: -1b
   flavor: BOOOOO!
+- name: PRO WRAITH
+  slug: ProWraith
+  bloodcost: 5
+  type: MONSTER
+  pain: 1
+  play: -2b
+  flavor: BOOOOO-OOOOO!!
 - name: IMP
   slug: Imp
   bloodcost: 3
@@ -138,6 +159,13 @@
   pain: 2
   play: +1b
   flavor: ALMOST AS DEADLY AS THEY ARE ANNOYING
+- name: PRO IMP
+  slug: ProImp
+  bloodcost: 3
+  type: MONSTER
+  pain: 3
+  play: +1b
+  flavor: AS DEADLY AS THEY ARE ANNOYING
 - name: SILVER CHEST
   slug: SilverChest
   coincost: 1
@@ -202,6 +230,13 @@
   pain: 1
   play: TAKE 1 DMG
   flavor: BONE THUG
+- name: PRO SKELETON
+  slug: ProSkeleton
+  bloodcost: 4
+  type: MONSTER
+  pain: 1
+  play: TAKE 2 DMG
+  flavor: DOES THE DEAD REALLY NEED ARMOR?
 - name: GLADIATOR
   slug: Gladiator
   coincost: 2
@@ -803,6 +838,13 @@
   pain: 1
   gain: GAIN 1 BATTLE POINT AND BURY
   flavor: TINY HUMAN &#8230; YOU BE PERFECT SNACK!
+- name: PIXIE
+  slug: Pixie
+  bloodcost: 3
+  type: HELPER
+  play: +5b AND BURY 3 MONSTERS
+  gain: HEAL 30 DMG AND LOSE 1 BATTLE POINT
+  flavor: SOME PIXIE DUST DOPING AS A LAST RESORT?
 - name: SLOWCOACH
   slug: Slowcoach
   bloodcost: 4
@@ -1108,6 +1150,26 @@
   play: +2g
   gain: HEAL 10 DMG AND LOSE 4 ROUNDS
   flavor: THIS WILL ONLY HURT A LITTLE
+- name: HAGGLER
+  slug: Haggler
+  coincost: 4
+  type: WORKER
+  play: +2g
+  gain: GIVE A 2g DISCOUNT TO RECRUITS ABOVE AND BELOW IN THE UNIT OFFER
+  flavor: WHEN DONE RIGHT, IT REALLY IS AN ART
+- name: DUKE
+  slug: Duke
+  coincost: 8
+  type: SOLDIER
+  play: +2g +3b
+  flavor: NOTHING EXCEPT A BATTLE LOST CAN BE HALF SO MELANCHOLY AS A BATTLE WON
+- name: TALENT SCOUT
+  slug: TalentScout
+  coincost: 2
+  type: WORKER
+  play: +1g +1b
+  gain: REPLACE A ROW IN THE UNIT OFFER WITH RANDOM RECRUITS. THEY HAVE A 1g DISCOUNT
+  flavor: CAN MAKE YOU A CELEBRITY OVERNIGHT
 - name: SKULL
   slug: Skull
   coincost: 5
@@ -1270,3 +1332,9 @@
   type: UPGRADE LVL 1
   skullcost: 7
   gain: ONGOING&#58; +1 BLOOD IF NO MORE THAN 5 UNITS WERE PLAYED. -2 BLOOD OTHERWISE
+- name: TALENT SCROLL
+  slug: TalentScroll
+  type: UPGRADE LVL 1
+  skullcost: 7
+  gain: REPLACE THE TOP ROW WITH RANDOM RECRUITS. THEY HAVE A 1g DISCOUNT
+  flavor: THE RANDOM RECRUITS ARE NOT NECESSARILY PART OF YOUR INITIAL 12
