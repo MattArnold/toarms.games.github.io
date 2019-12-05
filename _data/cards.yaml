@@ -444,7 +444,7 @@
   slug: Hunter
   coincost: 5
   type: GNOME
-  play: +4b IF THERE ARE NO MONSTERS IN THE TOP ROW WITH POWER 6 OR LESS
+  play: +4b IF THERE ARE NO MONSTERS IN THE TOP ROW WITH POWER 5 OR LESS
   flavor: IVE GOT THE BEAST IN MY SIGHTS
 - name: KING
   slug: King
@@ -469,7 +469,7 @@
   slug: Berserk
   coincost: 6
   type: GNOME WARRIOR
-  play: +4b IF LESS THAN 22 LIFE IS REMAINING
+  play: +4b IF LESS THAN 22 HP IS REMAINING
   flavor: RAAAAAW!
 - name: BEER
   slug: Beer
@@ -566,10 +566,10 @@
   flavor: A POT OF GOLD!
 - name: SHAMAN
   slug: Shaman
-  coincost: 7
+  coincost: 8
   type: MAGI
-  play: GIVE A RANDOM MONSTER PILE -1 POWER AND BURY A MONSTER
-  flavor: ASANTE SANA SQUASH BANANA WEWE NUGU MIMI HAPANA
+  play: GIVE A RANDOM MONSTER PILE -1 POWER
+  flavor: ASANTE SANA SQUASH BANANA WEWE NUGU MIMI HAPANA!
 - name: HOBURGLAR
   slug: Hoburglar
   bloodcost: 3
