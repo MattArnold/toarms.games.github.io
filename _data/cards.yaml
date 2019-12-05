@@ -1165,7 +1165,7 @@
   gain: GET 3X
   flavor: THE MORE THE MERRIER
 - name: BEASTMASTER
-  slug: BeastMaster
+  slug: Beastmaster
   coincost: 5
   type: WARRIOR
   play: +4b
