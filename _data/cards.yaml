@@ -184,14 +184,14 @@
   coincost: 3
   type: HOLY
   play: +1g AND BURY A MONSTER
-  combo: COMBO&#58; +2g
+  combo: +2g
   flavor: GOOD SINGERS WHO MAKE THEIR OWN BEER. PERFECT PARTY GUESTS
 - name: PRIEST
   slug: Priest
   coincost: 4
   type: HOLY
   play: +2g
-  combo: COMBO&#58; +1g
+  combo: +1g
   gain: BURY A MONSTER AND HEAL 3 DMG
   flavor: AMEN!
 - name: MONK
@@ -199,7 +199,7 @@
   coincost: 4
   type: HOLY WARRIOR
   play: +2b
-  combo: COMBO&#58; +1g
+  combo: +1g
   gain: BURY A MONSTER
   flavor: TRANQUILITY AND KICKASSNESS
 - name: NUN
@@ -207,7 +207,7 @@
   coincost: 5
   type: HOLY NINJA
   play: +2b
-  combo: COMBO&#58; +1b
+  combo: +1b
   gain: BURY 3 MONSTERS
   flavor: AAAAAVEEE…MARIIIIIIIA!
 - name: PALADIN
@@ -242,7 +242,7 @@
   coincost: 2
   type: WARRIOR
   play: +1g +1b
-  combo: COMBO&#58; +1b
+  combo: +1b
   flavor: ARE YOU NOT ENTERTAINED?
 - name: SPARTAN
   slug: Spartan
@@ -262,7 +262,7 @@
   coincost: 4
   type: PIRATE WARRIOR
   play: +1g +2b
-  combo: COMBO&#58; +1g
+  combo: +1g
   flavor: FOLLOWS ODINS PATH … IF IT LEADS TO MEAD
 - name: BARBARIAN
   slug: Barbarian
@@ -363,7 +363,7 @@
   coincost: 5
   type: MOUSE
   play: +2b
-  combo: COMBO&#58; +1g +1b
+  combo: +1g +1b
   gain: +3g
   flavor: EN GARDE!
 - name: WAITER
@@ -371,7 +371,7 @@
   coincost: 3
   type: MOUSE
   play: GIVE THE 2 RANDOM RECRUITS IN THE UNIT OFFER A 2g DISCOUNT
-  combo: COMBO&#58; …3g DISCOUNT
+  combo: …3g DISCOUNT
   flavor: A PERFECT PLACE FOR BUSINESS
 - name: GATHERER
   slug: Gatherer
@@ -395,7 +395,7 @@
   flavor: IS THAT A STOOGE CAP OR A DEAD STOOGE?
 - name: MUTAGEN
   slug: Mutagen
-  coincost: 3
+  coincost: 4
   type: ITEM
   gain: TRANSFORM THE LEFTMOST UNIT IN YOUR DISCARD PILE INTO A MUTANT
   flavor: A SMALL CANISTER HOLDING A GLOWING OOZE
@@ -404,14 +404,14 @@
   coincost: 2
   type: NINJA
   play: KILL A RANDOM MONSTER IN THE TOP ROW WITH A POWER 4 OR LESS
-  combo: COMBO&#58; …6 OR LESS
+  combo: …6 OR LESS
   flavor: A VERY HANDY TOOL
 - name: BLACK
   slug: Black
   coincost: 5
   type: NINJA
   play: +3b -1g
-  combo: COMBO&#58; +2g
+  combo: +2g
   flavor: SNEAKY SHADOW KILLER
 - name: WHITE
   slug: White
@@ -430,7 +430,7 @@
   coincost: 6
   type: NINJA
   play: +2b
-  combo: COMBO&#58; +1b
+  combo: +1b
   gain: REPLACE FIFTH SLOT WITH MUTAGEN
   flavor: COWABUNGA DUDE!
 - name: RASPER
@@ -628,14 +628,14 @@
   coincost: 4
   type: PIRATE
   play: +2b
-  combo: COMBO&#58; +1b AND ADD A BLOOD COIN, SHURIKEN, OR POTION
+  combo: +1b AND ADD A BLOOD COIN, SHURIKEN, OR POTION
   flavor: HOW MUCH DOES A PIRATE PAY FOR AN EAR PIERCING?
 - name: PARROT
   slug: Parrot
   coincost: 5
   type: PIRATE
   play: +2g
-  combo: COMBO&#58; +1g
+  combo: +1g
   gain: REPLACE A RANDOM MONSTERS LOOT WITH AN EPIC CHEST
   flavor: POLLY WANT A CRACKER!
 - name: EPIC CHEST
@@ -649,7 +649,7 @@
   coincost: 6
   type: PIRATE
   play: +2b
-  combo: COMBO&#58; +2g
+  combo: +2g
   gain: TRANSFORM THE LEFTMOST 2 MONSTERS, PIKEMEN, OR STOOGES IN YOUR DISCARD PILE INTO ROVERS
   flavor: AYE AYE!
 - name: KOBOLD
@@ -935,10 +935,10 @@
   state: 8
 - name: TYCOON
   slug: Tycoon
-  coincost: 5
+  coincost: 4
   type: GNOME
   play: +2g
-  combo: COMBO&#58; +1g
+  combo: +1g
   gain: REPLACE FOURTH SLOT WITH PIGGY BANK
   flavor: DID NOT DIE TRYING
 - name: PIGGY BANK
@@ -1058,7 +1058,7 @@
   flavor: A SUDDEN HEAD-COUNT RISE
 - name: SENSEI
   slug: Sensei
-  coincost: 5
+  coincost: 4
   type: NINJA MOUSE
   play: +2g
   combo: +2b
