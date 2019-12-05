@@ -1156,6 +1156,29 @@
   play: +2g
   gain: GIVE A 2g DISCOUNT TO RECRUITS ABOVE AND BELOW IN THE UNIT OFFER
   flavor: WHEN DONE RIGHT, IT REALLY IS AN ART
+- name: TRIO
+  slug: Trio
+  coincost: 8
+  type: GNOME
+  play: +2g +1b
+  combo: +1g +1b
+  gain: GET 3X
+  flavor: THE MORE THE MERRIER
+- name: BEASTMASTER
+  slug: BeastMaster
+  coincost: 5
+  type: WARRIOR
+  play: +4b
+  gain: BURY THIS, IF THERE ARE LESS THAN 2 MONSTERS IN THE DISCARD
+  flavor: WITH THE COURAGE OF A BLOB AND THE STRENGTH OF A BEAR
+- name: TWINS
+  slug: Twins
+  coincost: 6
+  type: NINJA
+  play: +2b
+  combo: +1g +1b
+  gain: GET 2X
+  flavor: SOU-SETSU-KEN, THE MOST KICK-ASS ART OF ASS-KICKING
 - name: DUKE
   slug: Duke
   coincost: 8
