@@ -681,9 +681,8 @@
   flavor: BUDDY&#8230; CAN YOU SPARE A DIME?
 - name: CHAMELEON
   slug: Chameleon
-  bloodcost: 3
-  type: MONSTER ELF HOLY NINJA MOUSE PIRATE SOLDIER WARRIOR ANTIHERO MAGI
-  pain: 0
+  coincost: 4
+  type: <span style="font-size&#58; .6rem">WARRIOR ELF HOLY NINJA MOUSE PIRATE SOLDIER MAGI ANTIHERO GNOME</span>
   play: +2b
   flavor: A TOTAL WANNABE!
 - name: HERMIT

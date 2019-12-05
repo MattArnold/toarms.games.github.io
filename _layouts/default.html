@@ -94,7 +94,15 @@
       <span class="status cost">{{ card.status }} </span>
       {% endif %}
     </div>
-    {% if card.type.size > 60 %}
+    {% assign longest_type = 0 %}
+    {% assign types = card.type | split: " " %}
+    {% for t in types %}
+    {%     assign ilesstype = t | remove: "I" %}
+    {%     if ilesstype.size > longest_type %}
+    {%         assign longest_type = ilesstype.size %}
+    {%     endif %}
+    {% endfor %}
+    {% if longest_type > 6 %}
     <div class="small card-type">{{ card.type }}</div>
     {% else %}
     <div class="card-type">{{ card.type }}</div>
