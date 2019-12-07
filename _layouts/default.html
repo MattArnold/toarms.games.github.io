@@ -115,7 +115,7 @@
 {% endif %}
 {% if card.trick %}
   <div class="small card-trick">
-    {{ card.trick | replace: "g", coin | replace: "b", blood }}
+    TRICK: {{ card.trick | replace: "g", coin | replace: "b", blood }}
   </div>  
 {% endif %}
 {% if card.play %}
