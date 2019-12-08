@@ -493,7 +493,7 @@
 - name: NECROMANCER
   slug: Necromancer
   coincost: 4
-  type: ANTIHERO
+  type: ANTIHERO MAGI
   play: +2b AND BURY 2 MONSTERS GAIN +1b FOR EVERY MONSTER BURIED THIS WAY
   flavor: I SEE DEAD PEOPLE
 - name: WIZARD
@@ -533,7 +533,7 @@
 - name: WITCH
   slug: Witch
   coincost: 6
-  type: ANTIHERO
+  type: MAGI ANTIHERO
   play: +2g +1b
   gain: HEAL 2 DMG FOR EVERY MONSTER PILE IN THE TOP ROW
   flavor: A LITTLE WICKED BUT MORE WICKED-COOL
@@ -621,7 +621,7 @@
   coincost: 5
   type: ANTIHERO
   play: +2b
-  gain: REPLACE SECOND SLOT WITH DAGGERS
+  gain: REPLACE SECOND SLOT WITH DAGGER
   flavor: FOR THE GREAT ONE!
 - name: BUCCANEER
   slug: Buccaneer
