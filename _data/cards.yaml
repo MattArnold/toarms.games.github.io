@@ -179,6 +179,13 @@
   pain: 1
   play: dd PLAY TWO UNITS FROM YOUR DECK
   flavor: 20 20 VISION IN 2D
+- name: PRO CYCLOPS
+  slug: ProCyclops
+  bloodcost: 10
+  type: MONSTER
+  pain: 1
+  play: dd PLAY TWO UNITS FROM YOUR DECK
+  flavor: EVIL EYE
 - name: CLERIC
   slug: Cleric
   coincost: 3
@@ -654,10 +661,10 @@
   flavor: AYE AYE!
 - name: KOBOLD
   slug: Kobold
-  bloodcost: 4
+  bloodcost: 5
   type: MONSTER
   pain: 1
-  trick: TRICK&#58; +1 KOBOLD FOR EACH g ABOVE 5 THAT WAS GAINED THIS ROUND
+  trick: TRICK&#58; +1 KOBOLD IF AT LEAST 6g WAS GAINED THIS ROUND
   play: -1g
   flavor: NO GOLD FOR YOU!
 - name: RECONCOCTER
