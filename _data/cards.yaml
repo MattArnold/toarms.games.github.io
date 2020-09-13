@@ -133,7 +133,7 @@
   flavor: NO! THEY ARE NOT CUTE!
 - name: PRO GOBLIN
   slug: ProGoblin
-  bloodcost: 5
+  bloodcost: 6
   type: MONSTER
   pain: 1
   play: -2g
@@ -147,7 +147,7 @@
   flavor: BOOOOO!
 - name: PRO WRAITH
   slug: ProWraith
-  bloodcost: 5
+  bloodcost: 6
   type: MONSTER
   pain: 1
   play: -2b
@@ -181,7 +181,7 @@
   flavor: 20 20 VISION IN 2D
 - name: PRO CYCLOPS
   slug: ProCyclops
-  bloodcost: 10
+  bloodcost: 12
   type: MONSTER
   pain: 1
   play: dd PLAY TWO UNITS FROM YOUR DECK
@@ -239,7 +239,7 @@
   flavor: BONE THUG
 - name: PRO SKELETON
   slug: ProSkeleton
-  bloodcost: 4
+  bloodcost: 5
   type: MONSTER
   pain: 1
   play: TAKE 2 DMG
@@ -499,7 +499,7 @@
   flavor: THE SACRIFICIAL KIND
 - name: NECROMANCER
   slug: Necromancer
-  coincost: 4
+  coincost: 5
   type: ANTIHERO MAGI
   play: +2b AND BURY 2 MONSTERS GAIN +1b FOR EVERY MONSTER BURIED THIS WAY
   flavor: I SEE DEAD PEOPLE
@@ -670,13 +670,13 @@
 - name: RECONCOCTER
   slug: Reconcocter
   coincost: 5
-  type: MAGI
+  type: GNOME MAGI
   play: +1g +1b
   gain: REPLACE FOURTH SLOT WITH POLYMORPH
   flavor: FOR BETTER OR FOR WORSE
 - name: POLYMORPH
   slug: Polymorph
-  bloodcost: 1
+  bloodcost: 2
   type: SPELL
   gain: TRANSFORM THE TOP UNIT IN YOUR DISCARD PILE INTO A RANDOM UNIT
   flavor: BAAAH!
@@ -874,9 +874,10 @@
   flavor: CLEVER GIRLS
 - name: AVATAR
   slug: Avatar
-  coincost: 8
+  coincost: 7
   type: MAGI
   play: +1b FOR EACH FOCUS
+  gain: REPLACE THIRD SLOT WITH FOCUS
   flavor: SO MUCH MORE THAN A PROFILE PICTURE
 - name: FOCUS
   slug: Focus
@@ -1172,6 +1173,175 @@
   trick: POWER = COST OF MOST EXPENSIVE RECRUIT IN UNIT OFFER
   play: +3g
   flavor: DONT LET HIS SMILE FOOL YOU
+- name: KEEPER
+  slug: Keeper
+  bloodcost: 17
+  type: MONSTER
+  pain: 1
+  trick: A CREATURE INVADES
+  play: +2g +2b
+  state: 0
+  flavor: EVIL IS GOOD? -NAAA
+- name: KEEPER
+  slug: Keeper
+  bloodcost: 16
+  type: MONSTER
+  pain: 1
+  trick: A CREATURE INVADES
+  play: +2g +2b
+  state: 1
+  flavor: EVIL IS GOOD? -NAAA
+- name: KEEPER
+  slug: Keeper
+  bloodcost: 15
+  type: MONSTER
+  pain: 1
+  trick: A CREATURE INVADES
+  play: +2g +2b
+  state: 2
+  flavor: EVIL IS GOOD? -NAAA
+- name: KEEPER
+  slug: Keeper
+  bloodcost: 14
+  type: MONSTER
+  pain: 1
+  trick: A CREATURE INVADES
+  play: +2g +2b
+  state: 3
+  flavor: EVIL IS GOOD? -NAAA
+- name: KEEPER
+  slug: Keeper
+  bloodcost: 13
+  type: MONSTER
+  pain: 1
+  trick: A CREATURE INVADES
+  play: +2g +2b
+  state: 4
+  flavor: EVIL IS GOOD? -NAAA
+- name: KEEPER
+  slug: Keeper
+  bloodcost: 12
+  type: MONSTER
+  pain: 1
+  trick: A CREATURE INVADES
+  play: +2g +2b
+  state: 5
+  flavor: EVIL IS GOOD? -NAAA
+- name: KEEPER
+  slug: Keeper
+  bloodcost: 12
+  type: MONSTER
+  pain: 1
+  trick: A CREATURE INVADES
+  play: +2g +2b
+  state: 6
+  flavor: EVIL IS GOOD? -NAAA
+- name: KEEPER
+  slug: Keeper
+  bloodcost: 11
+  type: MONSTER
+  pain: 1
+  trick: A CREATURE INVADES
+  play: +2g +2b
+  state: 7
+  flavor: EVIL IS GOOD? -NAAA
+- name: KEEPER
+  slug: Keeper
+  bloodcost: 10
+  type: MONSTER
+  pain: 1
+  trick: A CREATURE INVADES
+  play: +2g +2b
+  state: 8
+  flavor: EVIL IS GOOD? -NAAA
+- name: KEEPER
+  slug: Keeper
+  bloodcost: 9
+  type: MONSTER
+  pain: 1
+  trick: A CREATURE INVADES
+  play: +2g +2b
+  state: 9
+  flavor: EVIL IS GOOD? -NAAA
+- name: KEEPER
+  slug: Keeper
+  bloodcost: 8
+  type: MONSTER
+  pain: 1
+  trick: A CREATURE INVADES
+  play: +2g +2b
+  state: 10
+  flavor: EVIL IS GOOD? -NAAA
+- name: KEEPER
+  slug: Keeper
+  bloodcost: 7
+  type: MONSTER
+  pain: 1
+  trick: A CREATURE INVADES
+  play: +2g +2b
+  state: 11
+  flavor: EVIL IS GOOD? -NAAA
+- name: KEEPER
+  slug: Keeper
+  bloodcost: 6
+  type: MONSTER
+  pain: 1
+  trick: A CREATURE INVADES
+  play: +2g +2b
+  state: 12
+  flavor: EVIL IS GOOD? -NAAA
+- name: KEEPER
+  slug: Keeper
+  bloodcost: 5
+  type: MONSTER
+  pain: 1
+  trick: A CREATURE INVADES
+  play: +2g +2b
+  state: 13
+  flavor: EVIL IS GOOD? -NAAA
+- name: KEEPER
+  slug: Keeper
+  bloodcost: 4
+  type: MONSTER
+  pain: 1
+  trick: A CREATURE INVADES
+  play: +2g +2b
+  state: 14
+  flavor: EVIL IS GOOD? -NAAA
+- name: KEEPER
+  slug: Keeper
+  bloodcost: 3
+  type: MONSTER
+  pain: 1
+  trick: A CREATURE INVADES
+  play: +2g +2b
+  state: 15
+  flavor: EVIL IS GOOD? -NAAA
+- name: KEEPER
+  slug: Keeper
+  bloodcost: 2
+  type: MONSTER
+  pain: 1
+  trick: A CREATURE INVADES
+  play: +2g +2b
+  state: 16
+  flavor: EVIL IS GOOD? -NAAA
+- name: KEEPER
+  slug: Keeper
+  bloodcost: 1
+  type: MONSTER
+  pain: 1
+  trick: A CREATURE INVADES
+  play: +2g +2b
+  state: 17
+  flavor: EVIL IS GOOD? -NAAA
+- name: CREATURE
+  slug: Creature
+  bloodcost: 4
+  type: INTRUDING MONSTER
+  pain: 0
+  gain: GIVE A KEEPER -1 POWER, THEN BURY THIS. WILL FLEE!
+  flavor: DEVOTED SLAVES TO THE KEEPER
 - name: ACOLYTE
   slug: Acolyte
   coincost: 3
@@ -1195,6 +1365,12 @@
   slug: Smasher
   type: ANTIHERO
   play: +1b FOR EACH CONSUMED POTION -UP TO 6-
+- name: BLOB
+  slug: Blob
+  bloodcost: 3
+  pain: 1
+  trick: +1 POWER
+  play: GIVE BLOBS -2 POWER
 - name: HAGGLER
   slug: Haggler
   coincost: 4
@@ -1244,6 +1420,65 @@
   play: +1g +1b
   gain: REPLACE A ROW IN THE UNIT OFFER WITH RANDOM RECRUITS. THEY HAVE A 1g DISCOUNT
   flavor: CAN MAKE YOU A CELEBRITY OVERNIGHT
+- name: INFLUENCER
+  slug: Influencer
+  coincost: 
+- name: ARCHMAGE
+  slug: Archmage
+  coincost: 5
+  type: ELF MAGI
+  play: PLAY A UNIT FROM YOUR DECK FOR EVERY 2 FOCUS
+  gain: REPLACE THIRD SLOT WITH FOCUS
+  flavor: THE DIFFERENCE IS A MATTER OF SCOPE
+- name: PYROMICER
+  slug: Pyromicer
+  coincost: 4
+  type: MOUSE MAGI
+  play: KILL AND BURY A RANDOM MONSTER IN THE TOP ROW WITH POWER NOT GREATER THAN YOUR FOCUS
+  gain: REPLACE THIRD SLOT WITH FOCUS
+  flavor: NEED A LIGHT?
+- name: MERMAID
+  slug: Mermaid
+  coincost: 5
+  type: PIRATE MAGI
+  play: +1g FOR EACH FOCUS
+  gain: REPLACE THIRD SLOT WITH FOCUS, THEN HEAL 1 DMG FOR EACH FOCUS
+  flavor: THE SIREN SONG IS QUITE CATCHY
+- name: BOUNTY HUNTER
+  slug: BountyHunter
+  coincost: 7
+  type: ANTIHERO
+  play: +3b AND A BOUNTY INVADES
+  flavor: IS THIS THE WAY?
+- name: BOUNTY
+  slug: Bounty
+  bloodcost: 3
+  type: INTRUDING MONSTER
+  pain: 0
+  gain: +4g, THEN BURY THIS. WILL FLEE!
+  flavor: CUTE I AM
+- name: CHAMPION
+  slug: Champion
+  coincost: 5
+  type: WARRIOR
+  play: +2b
+  combo: +1g
+  gain: HEAL 2 DMG FOR EVERY 3b
+  flavor: HOORAY!
+- name: CANNONEER
+  slug: Cannoneer
+  coincost: 4
+  type: PIRATE WARRIOR
+  play: +2b
+  gain: +2b FOR EVERY PIRATE OR WARRIOR PLAYED
+  flavor: THAT CANNON SURE LOOKS A LOT LIKE A ROCKET LAUNCHER
+- name: JUGGLER
+  slug: Juggler
+  coincost: 5
+  type: GNOME WORKER
+  play: +2g +1b
+  gain: SWAP GOLD COST OF THE RECRUITS IN THIS COLUMN OF THE UNIT OFFER
+  flavor: SWITCHEROO!
 - name: SKULL
   slug: Skull
   coincost: 5
@@ -1393,7 +1628,7 @@
   slug: DwarfScroll
   type: UPGRADE LVL 2
   skullcost: 5
-  gain: ADD A CHARGE EACH TIME A GNOME IS PLAYED. 5 CHARGES GIVES A POTION
+  gain: ADD A CHARGE EACH TIME A GNOME IS PLAYED. 9 CHARGES GIVES A POTION
   state: 1
 - name: GNOME SCROLL
   slug: DwarfScroll
@@ -1405,7 +1640,12 @@
   slug: SoloScroll
   type: UPGRADE LVL 1
   skullcost: 7
-  gain: ONGOING&#58; +1 BLOOD IF NO MORE THAN 5 UNITS WERE PLAYED. -2 BLOOD OTHERWISE
+  gain: ONGOING&#58; +1b IF NO MORE THAN 5 UNITS WERE PLAYED. -2b OTHERWISE
+- name: UNDERCOVER SCROLL
+  slug: UndercoverScroll
+  type: UPGRADE LVL 1
+  skullcost: 7
+  gain: ONGOING&#58; +1b IF AT LEAST 1 MONSTER WAS PLAYED.
 - name: TALENT SCROLL
   slug: TalentScroll
   type: UPGRADE LVL 1
