@@ -1425,6 +1425,8 @@
   coincost: 4
   type: GNOME
   play: +2g AND TRANSFORM A MONSTER INTO AN INFLUENCER
+  combo: +1g
+  flavor: DONT FORGET TO LIKE AND SUBSCRIBE
 - name: ARCHMAGE
   slug: Archmage
   coincost: 5
