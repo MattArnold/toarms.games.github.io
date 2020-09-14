@@ -1422,7 +1422,9 @@
   flavor: CAN MAKE YOU A CELEBRITY OVERNIGHT
 - name: INFLUENCER
   slug: Influencer
-  coincost: 
+  coincost: 4
+  type: GNOME
+  play: +2g AND TRANSFORM A MONSTER INTO AN INFLUENCER
 - name: ARCHMAGE
   slug: Archmage
   coincost: 5
