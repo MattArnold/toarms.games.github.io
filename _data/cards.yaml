@@ -582,7 +582,7 @@
   bloodcost: 3
   type: MONSTER
   pain: 1
-  trick: TRICK&#58; -1g
+  trick: -1g
   play: +1g
   flavor: EVEN MORE ANNOYING!
 - name: PIRANHA
@@ -590,7 +590,7 @@
   bloodcost: 2
   type: MONSTER
   pain: 2
-  trick: TRICK&#58; +1g
+  trick: +1g
   play: z
   flavor: UNDER THE SEA!
 - name: GHOUL
@@ -598,7 +598,7 @@
   bloodcost: 6
   type: MONSTER
   pain: 1
-  trick: TRICK&#58; -1b
+  trick: -1b
   play: z
   flavor: SLOW BUT DEADLY
 - name: MAD SCIENTIST
@@ -606,7 +606,7 @@
   bloodcost: 5
   type: MONSTER
   pain: 0
-  trick: TRICK&#58; GIVE A RANDOM MONSTER PILE +1 POWER
+  trick: GIVE A RANDOM MONSTER PILE +1 POWER
   play: +1g +2b
   flavor: WHO IS LAUGHING NOW?
 - name: LICH KING
@@ -614,7 +614,7 @@
   bloodcost: 5
   type: MONSTER
   pain: 1
-  trick: TRICK&#58; TRANSFORM A STOOGE OR A PIKEMAN INTO A SKELETON
+  trick: TRANSFORM A STOOGE OR A PIKEMAN INTO A SKELETON
   play: +2g +1b
   flavor: RULER OF THE DEAD
 - name: ULTIMATE
@@ -664,7 +664,7 @@
   bloodcost: 5
   type: MONSTER
   pain: 1
-  trick: TRICK&#58; +1 KOBOLD IF AT LEAST 6g WAS GAINED THIS ROUND
+  trick: +1 KOBOLD IF AT LEAST 6g WAS GAINED THIS ROUND
   play: -1g
   flavor: NO GOLD FOR YOU!
 - name: RECONCOCTER
@@ -703,7 +703,7 @@
   bloodcost: 6
   type: MONSTER
   pain: 1
-  trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
+  trick: +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
   play: +2b
   flavor: ONCE AN ANGEL &#8230;
   state: 0
@@ -712,7 +712,7 @@
   bloodcost: 7
   type: MONSTER
   pain: 1
-  trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
+  trick: +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
   play: +2b
   flavor: ONCE AN ANGEL &#8230;
   state: 1
@@ -721,7 +721,7 @@
   bloodcost: 8
   type: MONSTER
   pain: 1
-  trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
+  trick: +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
   play: +2b
   flavor: ONCE AN ANGEL &#8230;
   state: 2
@@ -730,7 +730,7 @@
   bloodcost: 9
   type: MONSTER
   pain: 1
-  trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
+  trick: +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
   play: +2b
   flavor: ONCE AN ANGEL &#8230;
   state: 3
@@ -739,7 +739,7 @@
   bloodcost: 10
   type: MONSTER
   pain: 1
-  trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
+  trick: +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
   play: +2b
   flavor: ONCE AN ANGEL &#8230;
   state: 4
@@ -748,7 +748,7 @@
   bloodcost: 11
   type: MONSTER
   pain: 1
-  trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
+  trick: +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
   play: +2b
   flavor: ONCE AN ANGEL &#8230;
   state: 5
@@ -757,7 +757,7 @@
   bloodcost: 12
   type: MONSTER
   pain: 1
-  trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
+  trick: +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
   play: +2b
   flavor: ONCE AN ANGEL &#8230;
   state: 6
@@ -766,7 +766,7 @@
   bloodcost: 13
   type: MONSTER
   pain: 1
-  trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
+  trick: +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
   play: +2b
   flavor: ONCE AN ANGEL &#8230;
   state: 7
@@ -775,7 +775,7 @@
   bloodcost: 14
   type: MONSTER
   pain: 1
-  trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
+  trick: +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
   play: +2b
   flavor: ONCE AN ANGEL &#8230;
   state: 8
@@ -784,7 +784,7 @@
   bloodcost: 15
   type: MONSTER
   pain: 1
-  trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
+  trick: +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
   play: +2b
   flavor: ONCE AN ANGEL &#8230;
   state: 9
@@ -793,7 +793,7 @@
   bloodcost: 16
   type: MONSTER
   pain: 1
-  trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
+  trick: +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
   play: +2b
   flavor: ONCE AN ANGEL &#8230;
   state: 10
@@ -802,7 +802,7 @@
   bloodcost: 17
   type: MONSTER
   pain: 1
-  trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
+  trick: +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
   play: +2b
   flavor: ONCE AN ANGEL &#8230;
   state: 11
@@ -811,7 +811,7 @@
   bloodcost: 18
   type: MONSTER
   pain: 1
-  trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
+  trick: +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
   play: +2b
   flavor: ONCE AN ANGEL &#8230;
   state: 12
@@ -820,7 +820,7 @@
   bloodcost: 19
   type: MONSTER
   pain: 1
-  trick: TRICK&#58; +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
+  trick: +1 POWER FOR EACH b ABOVE 6 THAT WAS GAINED THIS ROUND
   play: +2b
   flavor: YOU GET THE IDEA &#8230;
   state: 13
@@ -856,7 +856,7 @@
   bloodcost: 4
   type: MONSTER
   pain: 1
-  trick: TRICK&#58; -1 ROUND
+  trick: -1 ROUND
   play: z
   flavor: YOU SNOOZE&#8230; YOU LOSE
 - name: SANDGLASS
@@ -1032,7 +1032,7 @@
   bloodcost: 7
   type: MONSTER
   pain: 2
-  trick: TRICK&#58; A WEREWOLF INVADES
+  trick: A WEREWOLF INVADES
   play: +3b
   flavor: THE BITE IS A GIFT!
 - name: DARK SCOUT
@@ -1061,7 +1061,7 @@
   bloodcost: 4
   type: MONSTER
   pain: 1
-  trick: TRICK&#58; +2 HYDRAS -UP TO 6-
+  trick: +2 HYDRAS -UP TO 6-
   play: HEAL 2 DMG
   flavor: A SUDDEN HEAD-COUNT RISE
 - name: SENSEI
